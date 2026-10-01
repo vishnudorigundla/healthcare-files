@@ -1,0 +1,1001 @@
+HospitalID,HospitalName,HospitalType,City,State,Country,BedsCount,Rating,ContactNumber,CreatedDate,ModifiedDate
+1,Dunn and Sons Hospital,Multi-Specialty,East John,North Carolina,India,808,4.7,5814453665,2023-10-29,2025-11-15
+2,Flores-White Hospital,Private,North Amy,Arkansas,India,948,4.9,8000878737,2025-05-11,2025-10-02
+3,Howard-Blake Hospital,Multi-Specialty,Timothyfurt,Arkansas,India,292,2.6,4252016586,2023-12-26,2025-10-26
+4,"Anderson, Cole and Turner Hospital",Multi-Specialty,South Kevinfurt,Vermont,India,592,4.3,5021722606,2025-03-17,2026-06-28
+5,Thompson Group Hospital,Private,Marshalltown,Texas,India,89,4.8,3710258048,2024-09-16,2026-09-28
+6,Grimes-Dudley Hospital,Private,South Katelyn,Florida,India,278,4.6,0066720623,2024-05-24,2025-12-03
+7,Kennedy LLC Hospital,Multi-Specialty,Harrischester,Florida,India,597,4.9,8194250358,2024-02-15,2025-12-10
+8,"Bailey, Thompson and Mathews Hospital",Government,Mendeztown,Washington,India,969,4.4,9958172653,2024-07-03,2026-06-30
+9,Ward Group Hospital,Multi-Specialty,East Gregoryfurt,Oklahoma,India,272,3.6,4058830131,2024-07-25,2026-07-19
+10,"Fisher, Gonzales and Young Hospital",Multi-Specialty,Taramouth,Idaho,India,55,3.3,7978700187,2024-07-21,2026-06-22
+11,"Madden, Hammond and Perez Hospital",Multi-Specialty,South Jadeberg,North Carolina,India,371,3.3,9225385350,2024-05-04,2026-01-08
+12,Calhoun-Middleton Hospital,Multi-Specialty,Nicolestad,Georgia,India,517,4.3,2880067483,2025-09-11,2025-10-16
+13,"Carpenter, Hays and West Hospital",Private,Shawchester,North Carolina,India,781,4.4,2840297132,2025-07-11,2026-08-11
+14,Garcia-Davis Hospital,Multi-Specialty,Lake Michellemouth,Indiana,India,124,3.0,3992701797,2024-07-25,2026-08-26
+15,Flynn and Sons Hospital,Government,Lake Anthonychester,South Carolina,India,53,4.7,6640889282,2025-02-17,2026-01-27
+16,Lopez-Wilcox Hospital,Private,South Lawrence,Illinois,India,896,4.3,4835170583,2025-09-19,2026-08-09
+17,"Jones, Oliver and Martinez Hospital",Government,Williamsmouth,Utah,India,695,3.9,3610843685,2025-04-28,2025-12-12
+18,Aguilar Ltd Hospital,Government,Riversborough,Virginia,India,167,3.7,8797722468,2025-02-25,2026-06-25
+19,Guerrero-Ward Hospital,Government,Greenville,South Dakota,India,930,3.9,3338706899,2025-01-30,2026-07-22
+20,"Cowan, Jackson and Williams Hospital",Government,North Kennethfort,Indiana,India,655,2.9,6114462996,2024-01-27,2026-08-29
+21,Davis-Cohen Hospital,Private,North Paigetown,Illinois,India,553,3.0,7339782790,2024-04-14,2026-06-27
+22,"Hicks, Ewing and Wood Hospital",Private,Amandabury,Missouri,India,996,2.7,5728292135,2024-11-15,2025-11-28
+23,Martin PLC Hospital,Government,Michelleshire,Georgia,India,623,2.9,2552352894,2023-12-22,2026-01-20
+24,Chavez-Cohen Hospital,Government,Palmerport,Ohio,India,490,3.6,5161682212,2024-02-09,2026-08-20
+25,Cobb Inc Hospital,Private,Jeromeside,West Virginia,India,243,3.8,3025207743,2025-02-20,2025-12-03
+26,"Roberts, Wallace and Skinner Hospital",Private,East Brianton,Mississippi,India,896,2.5,1275348088,2024-02-28,2025-12-06
+27,"Reyes, Peterson and Arnold Hospital",Private,Patelchester,Connecticut,India,764,4.5,7750328671,2024-01-07,2025-10-05
+28,Wheeler LLC Hospital,Multi-Specialty,North Jason,Missouri,India,441,3.2,9467728154,2024-11-28,2025-10-31
+29,Wagner-Miller Hospital,Multi-Specialty,South Joshuaside,Oklahoma,India,75,4.8,7808643985,2024-03-07,2026-09-22
+30,Velasquez PLC Hospital,Multi-Specialty,Port Rhonda,Georgia,India,484,4.9,5375901836,2024-12-15,2026-01-04
+31,"Arnold, Shepherd and Brown Hospital",Government,West Danielshire,Maine,India,222,3.0,5548739972,2025-05-02,2025-11-20
+32,"Mcneil, Tapia and Patrick Hospital",Multi-Specialty,Williamberg,New York,India,349,3.7,0517800920,2024-02-21,2026-07-19
+33,Ortiz Ltd Hospital,Government,Sarafurt,Nebraska,India,694,2.5,5944036011,2023-12-05,2026-01-28
+34,Nunez Group Hospital,Government,West Margaretberg,Oregon,India,375,4.0,9037312665,2024-03-12,2025-10-20
+35,"Perez, Larsen and Snyder Hospital",Multi-Specialty,East Charles,Arizona,India,459,4.0,2363332158,2025-05-15,2026-05-18
+36,Mercer PLC Hospital,Government,Angelatown,Massachusetts,India,167,3.1,6994346521,2025-05-13,2025-10-29
+37,Hughes-Camacho Hospital,Multi-Specialty,Williamsmouth,Michigan,India,885,3.9,0620339041,2024-05-08,2026-04-21
+38,Melendez-Ortiz Hospital,Multi-Specialty,Davidbury,Tennessee,India,836,3.1,9612739970,2024-02-04,2026-03-08
+39,"Simpson, Jackson and Benitez Hospital",Private,Pamelatown,Virginia,India,773,2.9,0763072412,2025-01-14,2026-01-22
+40,Hays LLC Hospital,Multi-Specialty,North Connor,Alabama,India,274,4.1,0585044843,2025-01-15,2026-05-07
+41,"Munoz, Morales and Allen Hospital",Private,Kathyland,Maine,India,581,3.3,5450354075,2024-06-09,2026-02-22
+42,Wallace Inc Hospital,Multi-Specialty,Deborahburgh,North Dakota,India,162,4.0,3828529818,2024-02-28,2026-05-05
+43,Fuller-Johnson Hospital,Multi-Specialty,New Davidview,New York,India,189,3.6,4026492351,2024-07-11,2026-06-22
+44,Brady-Davis Hospital,Private,Stanleyhaven,New Jersey,India,608,5.0,8923831226,2025-01-29,2025-12-17
+45,Olson Group Hospital,Private,Ellisonhaven,Minnesota,India,50,2.9,4749554890,2024-04-01,2025-10-03
+46,"Harper, Ruiz and Smith Hospital",Multi-Specialty,Port Davidstad,Oregon,India,139,3.7,6927988651,2025-03-04,2026-05-20
+47,Myers-Johnson Hospital,Government,Lake Christopher,Connecticut,India,703,4.2,5760423524,2024-10-19,2025-12-21
+48,Wright Group Hospital,Private,East Markmouth,Wisconsin,India,369,3.5,9783756538,2023-10-22,2026-05-31
+49,"Mercado, Burke and Grimes Hospital",Government,South Debrahaven,New York,India,599,4.9,2691256064,2023-10-30,2026-04-05
+50,Hernandez Inc Hospital,Government,Richardsonport,Washington,India,854,4.3,8773752465,2024-10-28,2026-08-21
+51,"Brown, Acevedo and Mcdonald Hospital",Government,Leeside,Alabama,India,943,4.1,0293067625,2024-04-12,2026-02-17
+52,Palmer-Perry Hospital,Private,Ronaldfort,Rhode Island,India,188,4.4,0001940985,2024-08-13,2025-11-18
+53,Rodriguez-Chase Hospital,Government,North Victoria,Missouri,India,560,4.9,3573165796,2025-09-15,2026-04-21
+54,"Palmer, Barnes and Cunningham Hospital",Private,Lake Lynn,Nebraska,India,917,4.8,8035135724,2024-12-06,2026-04-06
+55,Turner-Watts Hospital,Government,Theresahaven,Colorado,India,894,4.3,2702077672,2023-10-05,2026-09-17
+56,Reyes-Maxwell Hospital,Multi-Specialty,Diaztown,South Dakota,India,308,4.4,3020281601,2023-10-04,2025-11-02
+57,"Turner, Sutton and Pierce Hospital",Multi-Specialty,West Frank,Maryland,India,722,2.9,2577979597,2025-09-14,2025-10-28
+58,Banks LLC Hospital,Private,Julietown,New York,India,951,2.8,3475574356,2025-09-01,2026-01-02
+59,Parker-Johnson Hospital,Multi-Specialty,Port Brendaborough,Washington,India,739,3.9,4321545619,2024-05-31,2026-07-17
+60,Johnson-Smith Hospital,Multi-Specialty,South Megan,New Mexico,India,59,2.5,9518325558,2025-05-09,2026-03-10
+61,Fry PLC Hospital,Government,New Anthonyport,Arkansas,India,310,3.7,1034585557,2024-07-27,2026-05-08
+62,Hodge LLC Hospital,Private,Wilsonview,Alaska,India,968,3.0,9238725720,2025-05-12,2026-05-06
+63,Sherman-Neal Hospital,Government,West Sabrina,Montana,India,699,3.4,1131169379,2024-11-28,2025-10-25
+64,"Patterson, Cook and Green Hospital",Government,North Tammymouth,Tennessee,India,221,4.4,9838570147,2025-02-08,2026-04-02
+65,"Brown, Chambers and Boone Hospital",Government,Jackiestad,Michigan,India,947,4.9,6678762436,2025-01-01,2026-01-24
+66,Tate and Sons Hospital,Government,East Paul,Delaware,India,62,2.7,2125080278,2025-01-10,2026-08-05
+67,Munoz LLC Hospital,Government,Davistown,Kansas,India,217,3.8,1920511420,2024-04-28,2026-06-04
+68,Cox-Chavez Hospital,Government,Novakburgh,North Carolina,India,691,4.7,7787673773,2025-07-11,2026-07-02
+69,Martinez LLC Hospital,Government,Richmondville,Oklahoma,India,645,2.7,7418106020,2025-05-12,2026-06-13
+70,"Smith, Ellison and Velasquez Hospital",Private,Crystalfurt,New Hampshire,India,370,4.6,3371404188,2024-08-28,2025-11-01
+71,Decker-Green Hospital,Multi-Specialty,Sandytown,North Dakota,India,368,3.4,2369123264,2024-10-02,2026-09-01
+72,Riley LLC Hospital,Government,Lake Lisa,Montana,India,662,3.3,3845078535,2024-12-04,2026-01-22
+73,Ramirez LLC Hospital,Government,Randallbury,Maryland,India,378,4.9,1888683426,2025-05-29,2026-08-26
+74,"Harris, Wilson and Lewis Hospital",Government,Stoutfurt,Texas,India,834,3.0,2018881854,2025-03-31,2026-01-04
+75,Sanchez PLC Hospital,Government,New Henryfurt,North Carolina,India,826,4.2,9872730050,2024-12-19,2026-01-12
+76,White LLC Hospital,Government,Millerton,Pennsylvania,India,960,4.6,8359334710,2024-11-16,2026-05-31
+77,"Jones, Moody and Patterson Hospital",Government,Pittsland,South Carolina,India,969,2.6,9110624763,2025-08-10,2025-10-28
+78,"Garner, Harrington and Rivera Hospital",Multi-Specialty,Fisherland,Arizona,India,599,4.2,6750320202,2023-12-03,2026-03-19
+79,Clements-Ruiz Hospital,Multi-Specialty,Scottshire,Nevada,India,468,4.9,3942857246,2024-06-03,2026-01-17
+80,"Beard, Hobbs and Dodson Hospital",Government,Melissaburgh,Vermont,India,655,2.8,7108054928,2024-01-16,2026-08-27
+81,"Elliott, Williams and Page Hospital",Multi-Specialty,Nancyberg,Idaho,India,144,4.7,5423473312,2025-06-17,2026-08-29
+82,Williams LLC Hospital,Private,Port Laurenshire,Vermont,India,866,4.0,2168813264,2023-10-15,2025-11-27
+83,Jenkins-Collins Hospital,Government,Gomezburgh,Maryland,India,630,4.0,1801756680,2023-10-24,2026-04-10
+84,Torres PLC Hospital,Private,Brownhaven,Utah,India,367,4.0,7745065046,2024-01-19,2026-04-17
+85,Smith-Cortez Hospital,Private,South Paul,Pennsylvania,India,285,3.2,3274587942,2024-02-05,2026-03-23
+86,Adams-Thomas Hospital,Government,Amandastad,Connecticut,India,995,4.8,3294819587,2025-06-30,2026-04-20
+87,Brooks and Sons Hospital,Multi-Specialty,West Charleneport,New Mexico,India,383,4.9,3470796444,2024-04-03,2026-03-07
+88,Garcia-Sullivan Hospital,Private,Port Kennethtown,New Mexico,India,934,4.1,5922558406,2025-07-06,2026-02-22
+89,"Sims, Escobar and Brooks Hospital",Government,East Darren,Indiana,India,425,4.5,3087291334,2024-02-07,2026-04-04
+90,Summers-Ortiz Hospital,Private,Deborahland,Texas,India,508,4.0,5844963813,2024-07-08,2025-12-13
+91,"Myers, Dillon and Thompson Hospital",Private,Lake Bethanyport,New Mexico,India,186,3.7,9977893455,2024-12-16,2025-12-15
+92,"Lopez, Brown and Hill Hospital",Private,West Ricky,Maine,India,979,4.2,8133099330,2024-01-20,2026-09-19
+93,Glenn-Nelson Hospital,Private,North Jamie,North Dakota,India,637,3.9,4831447127,2024-05-31,2025-10-15
+94,Perez-Foster Hospital,Multi-Specialty,Kayleemouth,Connecticut,India,596,4.0,0040421866,2025-01-06,2025-12-16
+95,Newman-Gonzalez Hospital,Private,Donnaland,Hawaii,India,562,4.5,0878776012,2024-10-26,2026-04-26
+96,Khan Ltd Hospital,Private,West Whitneymouth,West Virginia,India,345,3.7,7502150633,2024-10-20,2025-11-22
+97,"Williams, Robbins and Brown Hospital",Private,North Melissa,Washington,India,369,2.6,9940300813,2024-08-02,2026-05-06
+98,Porter-Zamora Hospital,Multi-Specialty,West Brittany,Wyoming,India,967,2.9,2019560609,2023-10-28,2026-01-12
+99,"Johnson, Sanchez and Johns Hospital",Private,Arielhaven,Delaware,India,621,3.6,6559012224,2025-07-23,2026-03-21
+100,"Miller, Moon and Goodman Hospital",Private,West Susanborough,Montana,India,881,4.3,9023291918,2024-05-06,2026-08-16
+101,"Berg, Phillips and Smith Hospital",Multi-Specialty,Watersland,Missouri,India,398,4.0,6577401407,2025-03-19,2025-10-30
+102,"Miller, Valencia and Coleman Hospital",Multi-Specialty,New Shawnafurt,Maine,India,889,4.1,6602215002,2025-07-09,2026-05-19
+103,"Thornton, Jones and Henderson Hospital",Multi-Specialty,South Danielville,Iowa,India,828,3.7,2606851603,2023-12-15,2026-05-23
+104,"Carlson, Nicholson and Miller Hospital",Private,Hardyport,Georgia,India,922,4.0,3087805224,2025-05-04,2026-02-25
+105,Garcia-Gutierrez Hospital,Multi-Specialty,North Michelle,Washington,India,278,3.3,8373451152,2024-01-26,2025-12-15
+106,Harris-Lane Hospital,Multi-Specialty,Huynhton,Hawaii,India,319,3.7,3979402665,2024-03-22,2025-11-17
+107,Lyons-Montgomery Hospital,Private,Stephanieland,Minnesota,India,877,4.4,7584989966,2024-08-14,2026-02-08
+108,"Lindsey, Berry and Miller Hospital",Multi-Specialty,Stephaniefurt,Oklahoma,India,847,4.7,5445925334,2024-06-18,2026-04-09
+109,Schmitt-Mendoza Hospital,Private,South Tammy,South Carolina,India,340,3.6,9318381296,2025-09-03,2026-06-09
+110,Rodriguez LLC Hospital,Government,Michaelside,Mississippi,India,774,2.6,0374810599,2025-09-04,2026-05-20
+111,"Greene, Cherry and Morales Hospital",Multi-Specialty,New Joycemouth,Massachusetts,India,214,2.9,8068183051,2025-06-11,2026-04-11
+112,"Contreras, Alvarez and Diaz Hospital",Government,East Theresabury,Florida,India,54,2.6,9815147160,2024-02-18,2026-06-17
+113,Allen-Smith Hospital,Private,Grantchester,Illinois,India,900,4.1,3373414531,2025-07-12,2025-10-28
+114,"Harvey, Stevenson and Holmes Hospital",Multi-Specialty,North Kathleenmouth,Ohio,India,428,3.3,4618193566,2025-05-01,2025-12-04
+115,"Smith, Joyce and Brown Hospital",Private,Justinhaven,Louisiana,India,127,3.9,6054719069,2024-07-25,2026-09-19
+116,Rivera LLC Hospital,Government,North Danieltown,New Jersey,India,459,3.7,2965048513,2025-06-09,2026-03-02
+117,Lindsey-Rich Hospital,Private,New Donna,Arizona,India,623,2.7,8020776375,2024-04-24,2026-06-10
+118,Roach Ltd Hospital,Multi-Specialty,Port Darryl,Texas,India,181,3.5,7510163733,2024-05-17,2025-12-27
+119,"Hendricks, Hodge and Nash Hospital",Multi-Specialty,New Joshuabury,Maryland,India,650,3.1,4480714473,2023-11-17,2026-02-01
+120,"Aguirre, Coleman and Sutton Hospital",Government,New Dustinfurt,Michigan,India,798,3.5,5802283034,2025-05-03,2025-10-31
+121,Roberts Group Hospital,Private,East Lindamouth,Indiana,India,91,3.0,9881883569,2025-03-12,2026-02-01
+122,Moran Group Hospital,Multi-Specialty,Hartmantown,Utah,India,138,4.6,1952608069,2025-08-23,2026-06-08
+123,Alvarado-Taylor Hospital,Government,South Laurenport,Illinois,India,451,2.9,1537813760,2024-06-05,2026-03-05
+124,Peters-Daniels Hospital,Multi-Specialty,East Joshua,Connecticut,India,345,4.9,2639217103,2024-03-13,2026-02-13
+125,"Winters, Hudson and Rodriguez Hospital",Multi-Specialty,Port James,West Virginia,India,889,3.5,8993512259,2025-01-22,2025-10-25
+126,Ramirez-Anderson Hospital,Private,Lake Codybury,Florida,India,344,4.6,8926516314,2025-07-23,2026-01-19
+127,Peterson-Stein Hospital,Multi-Specialty,New Omar,Kansas,India,665,4.1,7717225631,2024-04-16,2026-09-21
+128,"Lowe, Pena and Vang Hospital",Private,Port Christopher,Delaware,India,575,4.3,0008633284,2024-03-23,2026-06-29
+129,Jones-Kennedy Hospital,Multi-Specialty,Morrisside,Indiana,India,849,4.4,3392159611,2025-06-06,2026-03-31
+130,"Walker, Nguyen and Smith Hospital",Government,Yvettefurt,Wisconsin,India,740,3.8,4364302170,2023-11-22,2025-10-29
+131,Wade-Burke Hospital,Multi-Specialty,Stevenborough,Arizona,India,686,3.9,2804837195,2024-11-22,2026-06-24
+132,"Trujillo, Garcia and Moreno Hospital",Private,New Sarastad,Washington,India,471,3.8,4080788561,2025-05-09,2026-03-21
+133,James-Shaw Hospital,Private,Lake Linda,Wyoming,India,914,4.0,2072182431,2025-06-05,2025-10-30
+134,"Holland, Chapman and Schneider Hospital",Government,Cookemouth,Minnesota,India,72,2.6,7201859813,2024-04-30,2026-08-22
+135,Potter LLC Hospital,Multi-Specialty,New David,New Hampshire,India,624,3.5,5410115765,2025-06-13,2025-11-21
+136,Schmidt and Sons Hospital,Multi-Specialty,West Summer,Alabama,India,192,4.0,0271232518,2024-05-15,2025-11-16
+137,Coleman-Baxter Hospital,Government,Alexanderhaven,Alaska,India,714,4.0,7713415530,2025-06-04,2026-06-30
+138,Diaz Inc Hospital,Multi-Specialty,South Nicoleport,Oregon,India,194,4.5,5443167370,2025-01-18,2025-12-16
+139,"Campos, Roman and Wheeler Hospital",Multi-Specialty,Port Williambury,Alaska,India,274,4.1,6730084631,2024-12-25,2025-12-18
+140,Chandler PLC Hospital,Private,New Kimberly,Texas,India,552,5.0,7709157099,2024-08-20,2026-03-16
+141,Oconnell-Allen Hospital,Multi-Specialty,West Kayla,Nevada,India,870,3.2,2825937946,2024-04-13,2026-09-17
+142,"Edwards, Griffin and Benjamin Hospital",Multi-Specialty,Smithville,North Carolina,India,665,3.4,3165262012,2025-02-09,2026-03-05
+143,"Wood, Finley and Sanchez Hospital",Government,Sanchezville,Kentucky,India,153,3.5,9596332160,2024-05-03,2026-07-27
+144,Hansen Group Hospital,Government,Lake Jennifer,New York,India,996,3.7,3939885149,2024-09-15,2026-01-28
+145,"Wilson, Johnson and Taylor Hospital",Private,Lake Tylerside,New Jersey,India,88,4.6,1295089673,2024-12-21,2026-01-19
+146,Holt-Combs Hospital,Multi-Specialty,Chavezmouth,Indiana,India,996,3.1,6263133319,2024-12-11,2026-07-13
+147,"Petersen, Pierce and Bass Hospital",Multi-Specialty,Kimberlyton,Hawaii,India,247,4.4,6415883726,2024-10-05,2026-09-11
+148,Powell-Flores Hospital,Multi-Specialty,Theresaside,Nebraska,India,695,3.5,9211602061,2023-12-12,2026-01-13
+149,Dixon PLC Hospital,Private,West Nicolebury,Indiana,India,628,4.0,0089530989,2025-09-11,2026-05-27
+150,"Solomon, Johnson and Simmons Hospital",Private,Montgomeryside,New Mexico,India,440,4.1,3621132155,2023-12-18,2026-04-01
+151,Roberson-Cobb Hospital,Government,Zoestad,West Virginia,India,228,3.4,8408308942,2023-11-13,2026-07-18
+152,Miller-Walters Hospital,Private,Robertfurt,Utah,India,603,3.8,7783688560,2024-01-24,2026-07-22
+153,Simpson-Khan Hospital,Multi-Specialty,Taylortown,Wisconsin,India,497,3.5,9113173827,2023-11-12,2026-04-07
+154,"Wagner, Baker and Powell Hospital",Multi-Specialty,Michaelland,Vermont,India,549,2.7,2498904716,2024-05-25,2026-07-05
+155,"Mendez, Smith and Parker Hospital",Private,East Anntown,Michigan,India,64,3.6,7834950433,2025-08-16,2026-05-10
+156,Richards PLC Hospital,Multi-Specialty,Huffmanshire,Massachusetts,India,672,2.7,9755248255,2025-08-24,2026-01-01
+157,Smith-Hunt Hospital,Multi-Specialty,Piercehaven,Louisiana,India,718,3.5,5319839029,2025-01-10,2026-09-19
+158,Tyler-Powell Hospital,Private,Monicashire,Minnesota,India,338,4.0,1597894900,2024-05-17,2026-06-24
+159,Hughes-Levine Hospital,Private,South Stephanieland,South Dakota,India,527,3.9,1712944238,2024-11-02,2026-07-04
+160,Burgess PLC Hospital,Multi-Specialty,Weberfort,Delaware,India,280,4.2,0110915327,2024-08-11,2026-07-25
+161,"Hernandez, Bell and Lee Hospital",Multi-Specialty,Lawrenceshire,South Dakota,India,972,2.7,2317132738,2023-12-06,2026-03-25
+162,Lee and Sons Hospital,Multi-Specialty,Sanchezside,Minnesota,India,469,4.1,6236722152,2025-05-12,2025-11-08
+163,Robinson-Farrell Hospital,Government,Lake Rebeccaville,Iowa,India,206,3.3,8879814191,2025-08-29,2026-04-27
+164,Massey and Sons Hospital,Government,Danielstad,Texas,India,599,3.5,8396114421,2024-10-28,2026-04-04
+165,Wolf and Sons Hospital,Government,Jonathanton,Ohio,India,490,4.6,8694169487,2023-11-11,2026-05-17
+166,Cox-Humphrey Hospital,Private,Stevenfurt,Illinois,India,146,2.5,9847657517,2023-10-02,2025-12-13
+167,Rogers Group Hospital,Government,West David,Ohio,India,460,4.0,0296596500,2024-07-14,2026-08-20
+168,Galvan-Bush Hospital,Private,North Andres,Delaware,India,338,4.0,4759341154,2024-12-25,2025-12-02
+169,Hunt-Mahoney Hospital,Private,South Jon,Nebraska,India,303,3.5,4094061800,2025-08-07,2026-06-20
+170,"Garrett, Smith and Craig Hospital",Government,Amberchester,Maine,India,245,3.1,1371247194,2025-03-28,2026-05-01
+171,Thompson PLC Hospital,Government,Henryhaven,New Hampshire,India,647,3.1,5829286803,2025-05-08,2026-03-12
+172,Anderson PLC Hospital,Government,West Angelatown,Wyoming,India,883,4.7,2957437427,2025-03-31,2026-08-17
+173,Nielsen Inc Hospital,Multi-Specialty,East Lauraborough,Massachusetts,India,571,3.6,5942191490,2023-12-04,2026-01-13
+174,Guerrero-Nixon Hospital,Government,East Alejandrostad,New York,India,566,3.3,3477330697,2024-11-22,2026-08-29
+175,Chaney-Wong Hospital,Multi-Specialty,Rodriguezview,Oregon,India,684,3.6,5301264602,2024-03-17,2026-08-19
+176,"Cunningham, Sullivan and Medina Hospital",Private,Walkerstad,Wyoming,India,891,4.2,0906509242,2024-02-09,2026-06-30
+177,Walters and Sons Hospital,Multi-Specialty,North Adamstad,New Mexico,India,914,2.9,0217989241,2024-04-13,2026-09-07
+178,Shah-Patel Hospital,Government,Harrismouth,Delaware,India,167,3.6,3717197398,2025-03-05,2025-12-15
+179,"Hurst, Davis and Sanders Hospital",Private,Michaelburgh,Florida,India,855,4.0,2465753673,2023-10-14,2026-06-29
+180,"Frederick, Case and Hatfield Hospital",Private,Wrightstad,Louisiana,India,958,4.9,3448000173,2024-11-29,2026-08-18
+181,Ryan PLC Hospital,Private,East Mary,New Hampshire,India,208,3.1,4425081494,2024-08-05,2026-05-15
+182,"Thomas, Perry and Leonard Hospital",Multi-Specialty,Davisborough,Oklahoma,India,864,3.4,8844614293,2024-01-01,2026-06-09
+183,Meyer-Carrillo Hospital,Government,Greenfort,New Jersey,India,277,3.4,5588651141,2024-01-02,2026-04-15
+184,Johnson-Glenn Hospital,Private,Michaelstad,Pennsylvania,India,926,4.0,6843414622,2024-10-31,2026-03-16
+185,Smith-Smith Hospital,Private,Chadmouth,Idaho,India,265,3.4,3404338744,2025-06-10,2026-09-04
+186,"Watson, Jennings and Miller Hospital",Private,North Brandiview,South Dakota,India,997,3.8,4277419975,2024-05-21,2026-07-05
+187,Davis-Mendez Hospital,Multi-Specialty,Patricktown,Nevada,India,745,4.5,7481143094,2025-04-21,2025-11-18
+188,"Yates, Long and Ellis Hospital",Multi-Specialty,Gallagherton,Kansas,India,64,4.3,9785165179,2023-11-11,2026-01-24
+189,Werner-Hunter Hospital,Government,Richardstad,California,India,206,3.6,1089488790,2025-06-22,2025-12-06
+190,Smith LLC Hospital,Multi-Specialty,North Seanton,Iowa,India,697,4.7,9004280324,2024-04-07,2025-10-17
+191,Williams-Roberts Hospital,Private,Spearsview,Kansas,India,310,3.9,3175710486,2024-04-04,2025-11-19
+192,Clark-Brooks Hospital,Government,East Nicoleberg,New Jersey,India,206,3.8,8421201463,2024-02-02,2025-12-16
+193,"Church, Espinoza and Rogers Hospital",Private,Malonechester,Maine,India,96,2.6,0849824223,2024-04-27,2025-10-16
+194,Thomas-Shea Hospital,Private,North Melissa,New Jersey,India,373,5.0,8237348479,2023-12-14,2026-07-30
+195,"Greene, Myers and Perez Hospital",Multi-Specialty,Lake Tylerborough,Florida,India,893,2.8,4131480898,2024-07-30,2025-12-13
+196,Henson-Daniel Hospital,Government,South Robert,Delaware,India,734,3.1,3192450483,2025-02-10,2025-11-28
+197,Walters-Ellis Hospital,Multi-Specialty,Port Ericfurt,Delaware,India,179,2.6,5184003637,2025-09-21,2025-12-28
+198,Esparza-Walsh Hospital,Multi-Specialty,Joannatown,South Carolina,India,460,4.1,7756340316,2025-03-04,2026-09-15
+199,Elliott PLC Hospital,Government,South Paula,Delaware,India,144,3.1,6513696546,2024-03-12,2026-05-17
+200,Fields Inc Hospital,Private,North Seanfurt,Washington,India,676,3.0,1079353449,2024-05-27,2026-07-29
+201,"Griffith, Sanders and Stewart Hospital",Private,South Sharonchester,Indiana,India,804,2.7,1646808198,2024-12-26,2026-06-20
+202,Costa LLC Hospital,Government,Port Larryberg,Ohio,India,981,2.8,3099242878,2025-05-03,2026-01-18
+203,"Hurley, Carr and Figueroa Hospital",Private,New Robertshire,Nebraska,India,341,4.0,6788717122,2025-01-02,2025-11-16
+204,"Schaefer, Schneider and Hawkins Hospital",Government,South Jerry,Massachusetts,India,843,4.2,4258176788,2025-04-09,2026-03-11
+205,White Ltd Hospital,Government,Fosterfurt,North Carolina,India,860,3.5,9473323748,2024-02-03,2026-07-01
+206,Davis Inc Hospital,Multi-Specialty,West Michael,New Hampshire,India,332,3.7,2070954314,2024-06-04,2026-05-01
+207,Rivera-Moore Hospital,Government,Thomasville,Maine,India,118,4.2,2643980678,2025-08-28,2026-08-25
+208,Robbins-Schmidt Hospital,Multi-Specialty,West Alyssa,Michigan,India,709,2.5,3322972189,2023-11-09,2026-03-03
+209,"Gibson, Chen and Smith Hospital",Private,New Madison,Texas,India,60,3.3,0431203763,2025-02-01,2026-07-27
+210,"Key, Moore and Smith Hospital",Private,Vincentbury,Oklahoma,India,303,4.9,1195238544,2024-03-02,2026-09-17
+211,"Jimenez, Collins and Evans Hospital",Private,North Destinybury,Nebraska,India,891,4.0,6888118685,2023-12-14,2025-11-27
+212,"Orr, Walsh and Moreno Hospital",Private,Port Daniellechester,Indiana,India,921,3.1,6378157145,2025-06-15,2026-03-23
+213,Duffy Group Hospital,Multi-Specialty,Port Dawn,Florida,India,599,3.8,6882911302,2023-12-03,2026-07-04
+214,Flores-Soto Hospital,Private,South Derrick,Alabama,India,183,3.4,3760420504,2024-12-20,2026-08-26
+215,Moore LLC Hospital,Government,Watersfurt,Montana,India,761,3.8,0054745023,2025-02-21,2026-06-24
+216,Daniel LLC Hospital,Government,Port Craigfort,Indiana,India,72,2.8,9445438236,2024-08-29,2026-08-21
+217,Collins-Yoder Hospital,Government,West Valerieborough,Wisconsin,India,864,2.8,7652120116,2024-05-30,2025-12-15
+218,Flores-Walker Hospital,Multi-Specialty,Walkerbury,Louisiana,India,395,2.9,9221899548,2024-10-15,2025-10-06
+219,"Stewart, Bolton and Brooks Hospital",Private,North Monica,North Dakota,India,351,4.8,8204105767,2024-10-28,2026-03-17
+220,George Inc Hospital,Private,Kylestad,Mississippi,India,412,4.3,5268521099,2024-10-21,2026-09-06
+221,Smith LLC Hospital,Private,Codyport,Delaware,India,445,2.9,6869977744,2025-08-29,2026-08-02
+222,Gutierrez Group Hospital,Multi-Specialty,Montgomerytown,South Dakota,India,267,3.0,0085177492,2025-08-22,2026-09-18
+223,Jones-Barrera Hospital,Government,West Travis,Pennsylvania,India,190,4.3,4426842669,2024-05-03,2026-07-06
+224,Simon Ltd Hospital,Government,North Guy,Washington,India,665,2.9,7247339957,2024-10-25,2026-09-29
+225,"Cisneros, Lucas and Carter Hospital",Private,Griffithshire,Kentucky,India,259,3.1,3253119537,2024-12-30,2026-02-13
+226,"Morgan, Nguyen and Montgomery Hospital",Government,East Stephen,Wisconsin,India,672,4.9,6682666146,2024-05-09,2026-07-27
+227,Sims Inc Hospital,Government,North Regina,Hawaii,India,665,3.1,8743550203,2024-11-10,2026-02-28
+228,"Blair, Burton and Garcia Hospital",Multi-Specialty,Flynnshire,Idaho,India,877,4.2,4795115186,2024-04-08,2026-05-29
+229,Mcfarland-Rubio Hospital,Multi-Specialty,East Jacob,Alabama,India,732,4.9,8091200845,2024-09-20,2026-07-14
+230,Burns-Brooks Hospital,Multi-Specialty,Cruzmouth,Minnesota,India,509,3.4,5224019323,2024-10-30,2026-03-12
+231,"Murphy, Blair and Cline Hospital",Multi-Specialty,Shawborough,Rhode Island,India,405,2.5,0381178395,2024-11-15,2025-11-08
+232,Lopez-Shields Hospital,Private,Nealview,Florida,India,373,3.1,6618746997,2024-10-14,2026-02-26
+233,Duran PLC Hospital,Multi-Specialty,Kingmouth,Pennsylvania,India,182,4.6,4251699198,2025-09-19,2026-01-29
+234,Lawson-Larson Hospital,Government,Angelastad,Rhode Island,India,937,4.7,5910537050,2024-10-05,2025-10-24
+235,"Bryant, Hernandez and Martinez Hospital",Private,New Wandaport,Pennsylvania,India,854,4.4,8977760455,2024-11-10,2026-03-20
+236,Ibarra Inc Hospital,Government,West Tyler,Indiana,India,889,2.8,3622390469,2025-08-13,2026-07-20
+237,Hatfield Inc Hospital,Government,East Ashleefurt,Maine,India,176,4.5,4845047874,2024-02-05,2026-09-03
+238,"Brandt, Brown and Cantu Hospital",Government,Cindychester,Ohio,India,155,4.8,7177524290,2023-12-08,2026-06-04
+239,"Lee, Hanson and Gomez Hospital",Multi-Specialty,Dawnville,North Carolina,India,653,4.0,5120122927,2025-03-30,2025-11-06
+240,James-Ortiz Hospital,Multi-Specialty,Port Mary,North Dakota,India,848,4.9,6401140598,2024-09-10,2025-11-19
+241,"Holloway, Williams and Ponce Hospital",Private,Lindaborough,North Dakota,India,427,4.6,9922894056,2024-03-24,2026-06-21
+242,"Foster, Wilkins and Kelley Hospital",Private,Port Kimberly,West Virginia,India,954,4.2,5534464094,2024-10-26,2026-05-21
+243,Fields-Waters Hospital,Multi-Specialty,Johnstonton,Virginia,India,100,3.9,2989954959,2024-10-02,2026-09-04
+244,Mack-Jackson Hospital,Government,South Melanie,Texas,India,78,3.4,6225599730,2025-01-21,2026-05-15
+245,Fuller Group Hospital,Private,Fischerville,Delaware,India,511,2.9,6400610094,2025-01-21,2026-04-17
+246,"Reed, Wilson and Sanchez Hospital",Multi-Specialty,Chadton,Wisconsin,India,345,4.0,2577509671,2023-10-01,2025-11-22
+247,Smith-Rose Hospital,Multi-Specialty,Greenemouth,Illinois,India,346,3.3,3488147099,2025-03-21,2026-07-21
+248,Morales-Warren Hospital,Multi-Specialty,Cassandrachester,Idaho,India,775,4.7,1528934065,2025-08-17,2026-07-13
+249,Scott LLC Hospital,Government,South Jennifer,North Dakota,India,828,5.0,8221404638,2025-06-13,2026-06-15
+250,Clark-White Hospital,Multi-Specialty,South Lisa,Arkansas,India,456,4.4,3151399546,2023-10-29,2026-07-16
+251,Smith-Miles Hospital,Multi-Specialty,West Oliviaport,Kentucky,India,818,2.7,8507919810,2025-06-03,2026-04-18
+252,"Gilbert, Tran and Benton Hospital",Multi-Specialty,Sosatown,Oklahoma,India,863,3.2,4061971058,2024-06-19,2026-05-07
+253,Jones-Wilson Hospital,Multi-Specialty,New Trevorburgh,Montana,India,662,2.8,0114968359,2025-04-13,2026-06-19
+254,Wolfe-Glover Hospital,Private,Jasminefurt,Vermont,India,454,4.1,1962341557,2024-02-02,2026-04-02
+255,Nelson-Smith Hospital,Private,West Cesarburgh,Vermont,India,395,4.4,3416107230,2023-10-15,2025-10-04
+256,Bowers Ltd Hospital,Multi-Specialty,Michealville,Oklahoma,India,671,4.8,1363859884,2025-05-09,2026-08-13
+257,Hebert and Sons Hospital,Government,East Arielview,North Carolina,India,469,3.6,1465311323,2024-11-18,2026-07-09
+258,Potter-Young Hospital,Private,East Sherri,Kansas,India,231,4.8,4920017606,2025-08-10,2026-01-03
+259,Lopez-Adams Hospital,Multi-Specialty,Johnbury,Indiana,India,874,4.7,6569408070,2024-07-08,2026-09-16
+260,"Hughes, Wilson and Bailey Hospital",Private,Brucemouth,Arkansas,India,50,3.3,6805040714,2024-09-23,2025-10-14
+261,"Webb, Bailey and Taylor Hospital",Private,Kristafurt,Missouri,India,880,4.7,7313616103,2023-12-14,2026-06-01
+262,Cantu Inc Hospital,Government,Heathfurt,Michigan,India,999,3.4,7323235680,2025-03-09,2025-12-27
+263,"Perez, Alvarez and Brown Hospital",Multi-Specialty,East Jenniferton,Oregon,India,616,3.2,0032271065,2024-12-12,2026-08-16
+264,Farmer Group Hospital,Multi-Specialty,Orozcostad,Pennsylvania,India,420,4.1,9448849291,2024-12-03,2026-05-12
+265,"Petersen, Garcia and Sanchez Hospital",Government,Richardhaven,Kentucky,India,985,3.3,4563006518,2024-02-04,2026-01-24
+266,Harris-Rubio Hospital,Government,North Derek,Florida,India,960,4.1,8258812599,2025-06-20,2025-11-21
+267,Gonzales-Valdez Hospital,Multi-Specialty,Colemanmouth,North Carolina,India,710,4.0,6662311618,2023-11-07,2026-04-10
+268,"Everett, Sanchez and Higgins Hospital",Multi-Specialty,Matthewport,Wyoming,India,480,3.9,5537258364,2025-01-13,2026-09-25
+269,Bryant Ltd Hospital,Government,Palmerbury,North Carolina,India,358,3.5,1329539009,2024-05-03,2025-12-29
+270,"Cruz, Oliver and Vazquez Hospital",Private,Johnsonland,Delaware,India,186,3.9,3969113159,2023-10-28,2026-02-02
+271,Reese PLC Hospital,Private,Nelsonhaven,Montana,India,251,4.0,4399354759,2024-08-05,2026-04-04
+272,"Marquez, Browning and Mitchell Hospital",Government,Emilyfurt,Washington,India,485,3.9,0456224416,2025-07-29,2026-05-22
+273,Reynolds Group Hospital,Private,Markfurt,Oregon,India,362,3.6,8694410304,2025-09-17,2026-02-27
+274,Hall-Owen Hospital,Government,Reyesfort,Mississippi,India,166,2.5,6237792612,2024-04-15,2026-02-14
+275,Compton and Sons Hospital,Private,Port Jenniferview,Virginia,India,715,4.0,4869638377,2025-09-24,2025-12-14
+276,Martin-Turner Hospital,Private,Owensshire,Delaware,India,986,2.9,3071313265,2025-08-06,2026-09-09
+277,Hatfield-Thompson Hospital,Multi-Specialty,North Brian,South Carolina,India,852,4.1,9251537725,2025-08-22,2026-07-24
+278,Davis Inc Hospital,Multi-Specialty,Kristinatown,New Mexico,India,624,4.4,3370116384,2023-10-09,2026-09-29
+279,Tyler-Long Hospital,Private,South Rita,Arizona,India,293,3.8,3464400470,2023-11-14,2026-01-06
+280,"Wilson, Carter and Dean Hospital",Private,Clarencehaven,Utah,India,586,3.9,7275007972,2023-11-25,2026-02-14
+281,Rivers LLC Hospital,Multi-Specialty,New Julia,South Dakota,India,651,4.9,6149021349,2025-03-06,2026-06-27
+282,Hill LLC Hospital,Multi-Specialty,East Stevenberg,West Virginia,India,124,4.6,5376726700,2025-02-17,2026-08-13
+283,Harvey-Ellis Hospital,Multi-Specialty,Jimenezburgh,Vermont,India,855,4.8,6639717872,2024-05-04,2025-11-29
+284,"Dunn, Wilson and Allen Hospital",Government,Ortizbury,Wisconsin,India,435,4.5,9893837480,2024-01-02,2026-04-19
+285,Myers-Romero Hospital,Private,Cynthiabury,South Dakota,India,952,2.8,7533345479,2025-09-21,2025-12-20
+286,"Middleton, Chang and Haynes Hospital",Multi-Specialty,Jonesville,Georgia,India,259,2.9,3206876149,2025-04-08,2026-07-06
+287,Gonzales-Hayes Hospital,Private,Port Peterview,Massachusetts,India,524,3.8,7461215953,2025-04-07,2025-10-21
+288,Rogers Group Hospital,Government,Stewartfurt,New Mexico,India,467,3.1,7120138094,2025-08-07,2026-05-04
+289,Pugh-Jordan Hospital,Government,West Heidi,Alaska,India,396,3.7,8646328037,2024-10-13,2026-02-25
+290,Brown LLC Hospital,Multi-Specialty,New Christophermouth,Texas,India,578,3.5,7420543330,2024-10-24,2026-01-28
+291,"Keith, Johnston and King Hospital",Government,West Jeremy,Louisiana,India,689,3.9,1655537684,2024-07-12,2026-04-20
+292,"Harvey, Brown and Medina Hospital",Private,North Michelle,Oklahoma,India,988,4.4,2048717000,2024-01-22,2026-09-17
+293,"Howell, Munoz and Lyons Hospital",Multi-Specialty,Kerrberg,Tennessee,India,925,4.3,3309028816,2024-12-19,2025-11-21
+294,Mccormick PLC Hospital,Private,South Thomas,Massachusetts,India,812,3.8,9315727901,2025-05-20,2026-02-28
+295,Thomas and Sons Hospital,Private,Nathanielview,Missouri,India,228,4.6,7246480131,2025-04-27,2026-02-21
+296,Meyer-Stephenson Hospital,Government,Maynardtown,Louisiana,India,231,3.6,6874040825,2023-10-03,2025-12-15
+297,Mckay PLC Hospital,Government,New Jodiside,Idaho,India,713,4.7,7419805721,2025-07-01,2026-07-18
+298,"Sullivan, Jones and Russell Hospital",Government,Stewartfurt,California,India,74,2.7,2854823979,2025-01-13,2025-10-03
+299,"Peterson, Page and Livingston Hospital",Government,Hendersonbury,Washington,India,229,4.9,1520151970,2025-04-24,2026-02-27
+300,Cole and Sons Hospital,Government,Amberville,Wyoming,India,759,4.1,5593217408,2025-07-14,2026-01-02
+301,Prince Inc Hospital,Multi-Specialty,Port Courtneyland,Wisconsin,India,550,3.5,2091412164,2025-08-16,2026-04-05
+302,"Perez, Ray and Sanchez Hospital",Private,North Melissa,Arizona,India,905,3.0,0228523233,2025-04-11,2026-05-21
+303,Kim Inc Hospital,Private,South Arianaborough,Florida,India,210,3.7,8731993284,2024-12-21,2025-11-18
+304,"Hebert, Ramirez and Clark Hospital",Private,Deborahfurt,Rhode Island,India,226,3.0,5321079452,2023-10-30,2026-06-21
+305,"Turner, Juarez and Rivera Hospital",Private,Allenburgh,Hawaii,India,334,2.9,2684030418,2024-06-10,2026-05-10
+306,Alvarado Group Hospital,Government,Wallaceberg,North Carolina,India,112,4.0,9058939948,2024-07-30,2025-12-19
+307,Nguyen-Moore Hospital,Private,East Alyssatown,Alabama,India,711,3.8,0928724231,2025-09-03,2026-09-18
+308,"Byrd, Gonzalez and Bolton Hospital",Multi-Specialty,Chapmanborough,Colorado,India,715,4.2,6170615101,2024-02-25,2026-03-25
+309,"Cooper, House and Odonnell Hospital",Multi-Specialty,Lake Amanda,New Mexico,India,205,4.8,9883070395,2025-08-31,2026-04-17
+310,Lewis Inc Hospital,Private,South Heidi,Alaska,India,931,3.8,6221542806,2025-09-13,2025-10-28
+311,Duncan PLC Hospital,Private,South Derrick,South Dakota,India,518,4.0,0125676229,2024-02-24,2025-12-23
+312,Hinton-Woods Hospital,Multi-Specialty,Samanthafurt,New York,India,98,2.7,0782268533,2024-07-01,2026-03-28
+313,Martin PLC Hospital,Multi-Specialty,Jamesmouth,Alaska,India,898,4.3,6906854949,2024-07-16,2025-10-01
+314,Norton-Hughes Hospital,Government,Connormouth,Washington,India,133,3.5,9965960374,2025-07-09,2026-07-07
+315,Shaffer and Sons Hospital,Multi-Specialty,Hernandezside,Utah,India,410,4.9,6074565465,2025-08-01,2026-06-17
+316,"Shelton, Brooks and Jones Hospital",Government,North Thomasburgh,Rhode Island,India,738,4.6,5545634896,2024-05-22,2026-09-07
+317,Erickson and Sons Hospital,Government,North Clintonland,Massachusetts,India,197,3.8,2478999669,2023-11-18,2026-09-28
+318,Case Group Hospital,Government,Hollybury,Oregon,India,679,2.8,5817305468,2023-10-27,2026-04-23
+319,Davis and Sons Hospital,Government,South Jamie,Utah,India,391,4.6,6239906415,2024-01-02,2026-01-12
+320,Jordan-Bernard Hospital,Government,New Jennifer,Virginia,India,525,4.5,2540611894,2024-11-01,2026-05-14
+321,Moore-Bradley Hospital,Private,Lake Ethan,Tennessee,India,112,3.0,4766644116,2024-09-21,2025-11-04
+322,"Madden, Rodriguez and Vasquez Hospital",Multi-Specialty,Martinezmouth,Hawaii,India,750,3.2,2597969328,2024-11-05,2025-10-10
+323,Holmes-Hess Hospital,Government,Philipfurt,Rhode Island,India,409,4.5,9473432972,2024-07-07,2025-12-03
+324,Page and Sons Hospital,Multi-Specialty,New Catherinefurt,Maryland,India,610,3.0,1129261669,2025-08-01,2025-09-30
+325,Rangel-Cross Hospital,Multi-Specialty,Hillchester,Nevada,India,376,4.8,0765729380,2024-11-06,2026-04-05
+326,Ray and Sons Hospital,Government,Christinashire,Pennsylvania,India,818,3.6,8939980863,2024-03-19,2026-08-27
+327,"Allen, Wilkins and Marshall Hospital",Private,East Angela,West Virginia,India,785,2.7,7362931924,2023-11-29,2026-09-26
+328,"Donovan, Zimmerman and Anderson Hospital",Government,Marthaview,Missouri,India,190,4.5,6038881370,2023-11-09,2025-11-21
+329,Medina-Logan Hospital,Private,Robertport,Wyoming,India,264,3.4,4678860956,2024-08-03,2026-02-16
+330,Oconnor PLC Hospital,Multi-Specialty,Matthewmouth,Rhode Island,India,484,3.8,1385818558,2025-08-24,2026-03-25
+331,Perez LLC Hospital,Private,Hunterberg,North Carolina,India,940,2.8,3489603760,2024-01-27,2025-11-13
+332,"Burgess, Williams and Williams Hospital",Private,Lake Jessicaport,Hawaii,India,772,2.5,5326437516,2025-03-11,2025-12-19
+333,Henry LLC Hospital,Private,South Robert,South Dakota,India,367,4.1,2352162378,2024-05-04,2026-09-20
+334,"Davila, Weaver and Hartman Hospital",Multi-Specialty,Turnermouth,Florida,India,81,3.8,4489676686,2023-12-03,2026-06-02
+335,"Clark, Doyle and Johnson Hospital",Multi-Specialty,Lake Susanshire,Pennsylvania,India,719,4.0,3986688042,2024-12-12,2026-01-04
+336,"Palmer, Taylor and Mathis Hospital",Private,Port Amanda,Missouri,India,334,4.5,7346891258,2023-12-23,2026-02-08
+337,Wade-Knight Hospital,Private,Nashbury,Minnesota,India,354,4.1,6172010617,2024-08-03,2025-11-05
+338,Hogan Ltd Hospital,Government,Richardfurt,North Dakota,India,478,2.9,7134234242,2024-12-18,2025-12-29
+339,Wright-Smith Hospital,Private,South Maria,Colorado,India,526,3.4,1834710557,2023-11-23,2026-05-26
+340,Mata-Frederick Hospital,Government,Gordonstad,South Dakota,India,335,4.8,9951869026,2024-07-14,2025-10-14
+341,"Perez, Rodriguez and Park Hospital",Private,Josephfurt,Montana,India,193,4.4,7779724153,2025-08-09,2026-06-16
+342,Moon-Garner Hospital,Government,Nicholasmouth,Oklahoma,India,473,3.9,3982794769,2025-08-22,2025-12-14
+343,Potter-Chung Hospital,Multi-Specialty,West Eddie,Pennsylvania,India,68,3.1,0661068645,2024-09-08,2025-10-29
+344,Wilson-Soto Hospital,Private,West Dustin,North Dakota,India,67,3.3,5228364971,2023-11-17,2025-11-12
+345,Boyle PLC Hospital,Private,West Ashleyhaven,Rhode Island,India,818,4.3,9591099254,2024-07-22,2026-07-04
+346,"Kemp, Gilbert and Greer Hospital",Private,Nashhaven,Arizona,India,639,4.6,2560205390,2024-08-28,2025-10-02
+347,"Mcintosh, Martinez and Curtis Hospital",Private,Danielbury,Florida,India,420,4.2,8343252613,2025-07-20,2025-11-05
+348,"Preston, Hensley and Arias Hospital",Government,Scottfort,Texas,India,224,4.5,3664713698,2024-04-30,2026-07-11
+349,Hill Inc Hospital,Private,East Kennethtown,Kansas,India,243,4.4,8183208028,2025-07-18,2026-06-29
+350,Bowers-Jones Hospital,Multi-Specialty,Aaronfort,New Jersey,India,551,2.9,0737492244,2024-06-22,2026-03-19
+351,Johnson-Pearson Hospital,Multi-Specialty,East Christinachester,Rhode Island,India,162,3.6,8983204453,2025-09-22,2026-02-20
+352,"Martinez, Berry and Hamilton Hospital",Private,Floresberg,Maine,India,163,2.9,7244607276,2024-04-26,2026-04-22
+353,Larsen-Savage Hospital,Multi-Specialty,Kingshire,New York,India,271,3.1,2419768840,2024-09-09,2026-05-08
+354,Schwartz Inc Hospital,Private,Howardshire,Texas,India,727,4.7,4056672560,2023-10-31,2026-03-31
+355,Spears and Sons Hospital,Private,Rayport,Illinois,India,996,3.7,2076197573,2023-12-14,2025-12-12
+356,Tate PLC Hospital,Multi-Specialty,Pittshaven,Vermont,India,880,3.8,1850625429,2024-11-26,2026-08-30
+357,Manning PLC Hospital,Private,New Jamesside,Texas,India,693,2.9,6795090361,2025-01-19,2026-08-12
+358,"Garcia, Walters and King Hospital",Multi-Specialty,Herbertland,Arkansas,India,946,3.3,6500546078,2024-11-01,2025-10-11
+359,Church-Wilson Hospital,Government,Sullivanburgh,Vermont,India,313,3.1,2716317978,2024-12-29,2026-07-23
+360,"Castillo, West and Dennis Hospital",Private,Olsontown,Maine,India,974,3.0,1312688921,2025-06-28,2026-02-04
+361,"Wilson, Harris and Daniels Hospital",Government,Ronaldburgh,South Carolina,India,104,4.1,2011040428,2024-11-11,2025-11-21
+362,Ford PLC Hospital,Multi-Specialty,Garciafort,New Mexico,India,920,3.1,7211009473,2024-02-10,2026-01-19
+363,"Parker, Solis and Anderson Hospital",Government,Port Justin,Kansas,India,692,4.1,2660895126,2024-04-03,2026-06-19
+364,Sanchez Group Hospital,Government,West Juliemouth,Alaska,India,849,2.6,5908660734,2025-01-20,2026-04-18
+365,"Clark, James and Watson Hospital",Multi-Specialty,South Kristenbury,Kentucky,India,827,2.9,0787294866,2024-04-21,2026-05-07
+366,Vasquez PLC Hospital,Government,West Gregoryton,Kentucky,India,507,3.2,2676625890,2025-06-10,2025-10-13
+367,"Johnson, Green and Fitzgerald Hospital",Government,Barrettville,Nebraska,India,927,4.0,6253979260,2025-07-27,2026-05-23
+368,Young Ltd Hospital,Multi-Specialty,Jordanshire,Iowa,India,211,4.2,9157057055,2025-05-30,2026-03-29
+369,Ramirez Ltd Hospital,Government,Ianland,Arkansas,India,429,3.6,6345347516,2024-06-21,2025-10-13
+370,Noble-Brown Hospital,Multi-Specialty,New Sheliaborough,Michigan,India,136,3.6,8763453299,2025-09-10,2025-10-26
+371,"Brown, Lewis and Boyd Hospital",Government,Port Kennethland,Oregon,India,104,4.3,9115953009,2025-09-16,2026-08-16
+372,Wong-Gill Hospital,Multi-Specialty,Thompsonchester,Georgia,India,525,2.5,4706646762,2024-01-02,2026-04-30
+373,Garcia PLC Hospital,Multi-Specialty,North Justinbury,Washington,India,849,3.4,6108699353,2025-09-22,2026-02-20
+374,"Nguyen, Thomas and Elliott Hospital",Government,West Julie,Iowa,India,227,4.5,2794295955,2025-06-21,2025-11-28
+375,Hayes PLC Hospital,Government,South Thomasport,California,India,440,4.0,4041199373,2023-10-11,2026-03-11
+376,Snyder Inc Hospital,Government,South Carlhaven,North Carolina,India,398,3.3,3550731368,2023-10-26,2026-03-06
+377,"Boyle, Smith and Moreno Hospital",Private,West Richardside,Iowa,India,57,4.8,0197610880,2024-03-05,2026-02-04
+378,Blevins-Garcia Hospital,Private,Port Johnshire,New Hampshire,India,882,4.4,7079023765,2025-08-18,2026-03-03
+379,Wright Ltd Hospital,Private,Tristanshire,South Carolina,India,362,3.2,2471855799,2024-06-10,2025-12-15
+380,"Nguyen, Mcconnell and Moore Hospital",Multi-Specialty,New Scott,Oklahoma,India,808,4.1,3916738235,2024-03-23,2025-10-24
+381,Jenkins and Sons Hospital,Government,Lake Alexstad,Tennessee,India,884,4.0,3646310002,2025-06-13,2025-11-02
+382,"Griffith, Wood and Hickman Hospital",Multi-Specialty,Dawnmouth,Nebraska,India,492,3.5,4079130408,2024-12-19,2026-05-21
+383,Sawyer PLC Hospital,Private,Nicolemouth,Iowa,India,816,3.4,0761015416,2024-08-04,2026-09-24
+384,Jackson-Crawford Hospital,Government,South Christina,Delaware,India,377,3.4,0841293916,2024-07-19,2026-07-15
+385,"Jones, Smith and Bowers Hospital",Multi-Specialty,Davidstad,Georgia,India,103,4.0,1882025733,2025-03-18,2026-05-02
+386,"Lozano, Elliott and Porter Hospital",Government,West Troyburgh,Vermont,India,810,3.6,7079357519,2024-01-02,2026-04-05
+387,Combs Inc Hospital,Multi-Specialty,North Aliciafurt,Indiana,India,288,4.6,3083602265,2024-09-17,2026-04-11
+388,Romero Ltd Hospital,Government,Moraleshaven,South Dakota,India,278,4.2,6319836375,2023-10-21,2026-06-26
+389,Rodriguez-Hernandez Hospital,Private,New Ernestside,Utah,India,628,2.7,8163586469,2025-01-20,2026-01-24
+390,"Meyer, Padilla and Spears Hospital",Private,Port Anthonyhaven,Florida,India,100,4.1,4028991570,2023-10-25,2026-01-09
+391,"Clark, Morris and Morales Hospital",Government,Johnfort,Missouri,India,658,3.2,0932034118,2025-02-25,2025-12-26
+392,Sullivan LLC Hospital,Multi-Specialty,Port Shelleyview,Illinois,India,653,4.0,5926922096,2025-07-27,2025-11-27
+393,"Kidd, Anderson and Sharp Hospital",Private,Murraybury,Vermont,India,313,4.2,1602998346,2024-11-18,2026-05-30
+394,Phillips-Hanson Hospital,Private,Ethanshire,Oregon,India,467,3.1,3786456981,2025-01-21,2025-12-08
+395,"Cooper, Bush and Fox Hospital",Private,Jenkinshaven,Utah,India,852,3.6,9182178316,2024-09-23,2026-01-23
+396,"Perez, Allen and Townsend Hospital",Government,Joshuaberg,North Dakota,India,145,3.0,0488121399,2024-02-29,2026-06-27
+397,Bailey-Schwartz Hospital,Government,East Lauren,Wyoming,India,137,2.6,6888204589,2024-12-08,2026-04-20
+398,Shepard Group Hospital,Multi-Specialty,South Steven,Arizona,India,127,3.4,0347358661,2024-01-27,2026-08-02
+399,Stewart-Evans Hospital,Multi-Specialty,Richardstad,Oklahoma,India,337,3.4,9286721697,2025-02-18,2026-08-15
+400,"Goodwin, Evans and Scott Hospital",Multi-Specialty,Carolview,Indiana,India,169,5.0,9471478485,2025-04-26,2026-07-31
+401,Patterson Inc Hospital,Government,North Rodney,West Virginia,India,863,3.6,0205795172,2024-01-09,2026-03-19
+402,Freeman PLC Hospital,Government,Stewartborough,California,India,540,3.3,1438052565,2025-09-21,2025-11-10
+403,Smith Ltd Hospital,Multi-Specialty,New Michael,Delaware,India,961,4.0,1315060044,2023-10-08,2025-11-18
+404,Gates-Rodriguez Hospital,Multi-Specialty,North Amanda,Maryland,India,501,2.7,4908600020,2024-06-15,2025-11-02
+405,"Brown, Tanner and Cannon Hospital",Government,Tranhaven,Montana,India,549,4.9,0005463604,2024-09-13,2026-08-08
+406,Smith LLC Hospital,Multi-Specialty,North Jessicaton,New Jersey,India,214,4.1,7132382014,2023-12-15,2026-05-24
+407,Hardin Ltd Hospital,Private,Simpsonfurt,New Jersey,India,231,4.4,9954512725,2024-09-03,2026-03-19
+408,"Snyder, Cooper and Pope Hospital",Government,Garciamouth,Michigan,India,518,2.9,8002768160,2024-06-10,2026-06-12
+409,"Dunn, Thompson and Baldwin Hospital",Multi-Specialty,New Lauriefurt,New York,India,959,3.5,6122990853,2025-06-10,2025-12-09
+410,"Lee, Green and Hendrix Hospital",Government,East Tinaville,California,India,784,3.6,3894916768,2025-06-17,2026-02-04
+411,"Cohen, Bryant and Reyes Hospital",Private,Stevensfort,Connecticut,India,872,4.6,8678528397,2024-04-08,2026-02-05
+412,Baker-Dougherty Hospital,Government,West Sean,Delaware,India,993,2.5,6384864573,2025-08-21,2026-06-19
+413,"Allison, Henry and Anderson Hospital",Government,New Thomasshire,Pennsylvania,India,56,3.3,8530662135,2024-06-07,2025-11-05
+414,"Cortez, Moore and Contreras Hospital",Government,Heatherhaven,Wisconsin,India,379,5.0,4524139726,2024-02-17,2026-07-02
+415,Mcdaniel PLC Hospital,Government,Toddview,New Jersey,India,824,3.7,2547767243,2024-01-16,2026-03-13
+416,"Miranda, Cannon and Roberts Hospital",Private,Clarkshire,Delaware,India,722,3.5,1567431417,2024-07-23,2026-04-24
+417,Franklin Ltd Hospital,Government,West Lisafort,Wyoming,India,200,2.8,7723213991,2024-08-22,2026-07-25
+418,"Owens, Stewart and Young Hospital",Government,Port Amanda,Georgia,India,134,4.9,8869417498,2024-11-12,2026-06-04
+419,Friedman Inc Hospital,Multi-Specialty,East Kimberly,Delaware,India,196,2.6,1756129949,2023-10-31,2026-01-13
+420,"Allen, Shaw and Williams Hospital",Government,West Marieland,Texas,India,673,4.3,0557750198,2025-06-14,2026-07-14
+421,Morales Ltd Hospital,Multi-Specialty,Debraton,Connecticut,India,430,4.4,4843198452,2023-10-22,2026-03-31
+422,"Fisher, Rojas and Collier Hospital",Private,South Matthew,Ohio,India,964,3.1,7609578708,2025-08-01,2026-04-11
+423,"Cline, Castillo and Perez Hospital",Private,Stephanieside,New Jersey,India,597,4.2,5541965936,2024-01-11,2026-09-09
+424,Romero-Mcgrath Hospital,Private,Robertsonshire,Maryland,India,334,2.7,5736041850,2024-02-25,2026-03-04
+425,Barnes and Sons Hospital,Private,Lake Alyssafort,California,India,749,3.1,2931805709,2025-03-31,2026-01-31
+426,"Thompson, Yang and Moore Hospital",Multi-Specialty,Morganfurt,Maryland,India,131,4.5,3073352110,2024-10-16,2025-12-29
+427,"Smith, Solis and Young Hospital",Government,Lake Valerie,Pennsylvania,India,563,4.7,5204810899,2024-02-01,2026-01-18
+428,"Todd, Elliott and Dominguez Hospital",Private,Franktown,New York,India,946,4.0,6559142758,2024-09-24,2026-01-15
+429,"Williams, Little and Medina Hospital",Government,Michaelborough,Washington,India,864,3.8,4767261972,2024-06-14,2025-12-02
+430,"Novak, Romero and Porter Hospital",Multi-Specialty,Lake Michael,Vermont,India,758,2.9,5052640527,2024-11-21,2025-10-16
+431,"Hart, Mendoza and Medina Hospital",Multi-Specialty,South Steven,Colorado,India,965,2.7,9986725139,2025-02-25,2026-06-20
+432,Brown Ltd Hospital,Multi-Specialty,Jeffersonchester,Oregon,India,572,2.8,3461895718,2024-04-19,2026-06-18
+433,Trevino-Brooks Hospital,Private,Davidmouth,Georgia,India,795,3.1,6996374255,2025-07-23,2026-06-17
+434,"Johnston, Mcdonald and Graves Hospital",Government,North Dominiquemouth,Maine,India,435,3.4,1534088223,2025-07-30,2026-05-18
+435,"Parrish, Maxwell and Taylor Hospital",Government,Lake Nicoleview,Pennsylvania,India,756,3.5,9643803055,2025-08-03,2025-10-14
+436,Cameron Group Hospital,Government,East Markfurt,Rhode Island,India,520,3.4,7923745447,2025-06-09,2026-08-15
+437,"Rivera, Sanders and Adams Hospital",Multi-Specialty,Samanthaborough,Idaho,India,168,3.1,4703253119,2025-07-12,2026-06-25
+438,Munoz-Torres Hospital,Private,New Jenniferview,Utah,India,445,3.8,0589084155,2024-05-27,2026-01-28
+439,Vaughn-Madden Hospital,Multi-Specialty,Moranfurt,Louisiana,India,581,4.6,6381057602,2025-07-23,2025-10-18
+440,Saunders-Taylor Hospital,Multi-Specialty,Port Cynthia,Delaware,India,310,3.2,7376710017,2024-03-31,2026-07-15
+441,"Miller, Page and Graves Hospital",Government,Princeview,Kentucky,India,854,4.9,8279877675,2024-10-05,2026-09-27
+442,Werner Ltd Hospital,Multi-Specialty,New Gary,Ohio,India,983,4.7,4501384601,2024-09-01,2026-08-17
+443,Wright Group Hospital,Government,West Michaeltown,Virginia,India,305,2.9,1329176728,2024-09-01,2025-12-19
+444,"Dennis, Garcia and Morris Hospital",Private,Danielchester,Washington,India,783,4.5,7094436704,2024-04-11,2026-08-08
+445,Williams and Sons Hospital,Government,Justinmouth,Illinois,India,954,3.9,2482302635,2025-06-19,2025-11-27
+446,Bryant-Cox Hospital,Private,Maryport,South Dakota,India,275,3.9,4101483882,2025-05-20,2026-03-03
+447,Anderson-Coleman Hospital,Government,North Jennifer,Maine,India,102,3.5,5381376352,2024-05-13,2026-09-04
+448,Armstrong-Andersen Hospital,Multi-Specialty,New Juliachester,Hawaii,India,989,3.8,0872591403,2024-03-22,2026-05-31
+449,Cook and Sons Hospital,Multi-Specialty,Nancyfort,Louisiana,India,916,3.5,4831386811,2024-05-08,2025-12-21
+450,Lopez Group Hospital,Private,North Saratown,Maine,India,549,3.8,2027640480,2025-03-04,2026-08-06
+451,Cole Inc Hospital,Private,Lake Georgeton,New Hampshire,India,555,4.1,1747343878,2023-11-03,2025-10-26
+452,Fowler and Sons Hospital,Private,West Davidton,Pennsylvania,India,903,4.2,9047042873,2025-08-06,2026-06-05
+453,"Ware, Taylor and Hale Hospital",Government,Alanshire,Arizona,India,413,3.8,3942173764,2024-09-10,2026-07-29
+454,"Cruz, Dawson and Walters Hospital",Government,Markborough,Ohio,India,329,4.3,2656167962,2024-11-15,2026-08-23
+455,Williams Inc Hospital,Private,South Benjamin,Nevada,India,642,2.9,8782372328,2025-05-30,2026-06-04
+456,"King, Turner and Williams Hospital",Multi-Specialty,New Davidhaven,New Jersey,India,763,3.0,9644324838,2024-04-10,2025-11-25
+457,Macias PLC Hospital,Government,Kellyton,Delaware,India,207,4.5,7506281796,2025-07-17,2026-08-15
+458,Sutton-Rojas Hospital,Government,South Mary,Idaho,India,681,3.3,8138515049,2023-10-07,2025-10-23
+459,Evans PLC Hospital,Government,Graveston,Delaware,India,108,2.6,1288298881,2025-05-20,2026-06-28
+460,Murphy-Lee Hospital,Private,Nicholsonfurt,Washington,India,776,2.9,5644654204,2025-01-11,2026-08-02
+461,Cook Group Hospital,Private,Knightshire,Montana,India,177,3.1,1995218023,2024-08-09,2026-04-15
+462,"Davis, Henry and Montgomery Hospital",Private,North Kathrynhaven,South Dakota,India,785,4.9,8816165059,2024-06-09,2026-02-18
+463,Morgan and Sons Hospital,Private,Ramosfort,South Carolina,India,770,3.9,6407620239,2024-07-04,2026-05-10
+464,Nelson-Blanchard Hospital,Private,Wagnerchester,Oklahoma,India,931,4.8,5843775723,2024-07-24,2025-11-01
+465,Foley-Garcia Hospital,Multi-Specialty,South Leslie,Arkansas,India,164,3.9,6382781328,2025-03-30,2026-07-26
+466,"Davidson, Tanner and Baird Hospital",Multi-Specialty,Woodburgh,Alabama,India,258,3.7,1379856415,2025-08-26,2026-06-22
+467,Edwards Inc Hospital,Private,Port Danielton,Washington,India,575,3.3,7697797778,2024-04-27,2026-07-06
+468,Acosta Group Hospital,Government,Robinfurt,Hawaii,India,570,4.0,8366458500,2024-09-28,2025-10-21
+469,Owens Group Hospital,Private,Colebury,Arizona,India,601,2.8,9346096729,2023-11-15,2026-03-24
+470,Gibson-Wheeler Hospital,Multi-Specialty,Aguilarmouth,Arkansas,India,286,4.7,2503842165,2024-07-07,2026-04-05
+471,Stout-Carlson Hospital,Multi-Specialty,North Elizabeth,Nebraska,India,330,4.6,8685122320,2024-02-06,2025-09-30
+472,"Hernandez, Rogers and Bryant Hospital",Government,Rubiomouth,Illinois,India,408,3.3,8747148293,2024-11-09,2026-01-16
+473,Murphy LLC Hospital,Multi-Specialty,Perezfort,Florida,India,250,4.9,5615884967,2024-07-24,2025-11-29
+474,"Oconnell, Maddox and Jones Hospital",Private,Angelaton,Iowa,India,807,4.6,5165611512,2025-02-08,2026-03-02
+475,Lopez-Sullivan Hospital,Government,North Holly,Maine,India,327,4.2,8507814873,2024-05-19,2025-09-30
+476,"Chen, Stephens and Turner Hospital",Private,West Joshuafort,Nevada,India,284,2.8,8756021991,2025-01-02,2026-06-05
+477,Burgess-Jones Hospital,Private,South Allisonburgh,Colorado,India,543,3.7,6752129826,2025-04-20,2026-02-28
+478,"Garcia, Allen and Costa Hospital",Government,West Kevin,South Carolina,India,53,3.8,6198639563,2025-04-08,2026-03-20
+479,"Jones, Park and White Hospital",Private,Deannamouth,Arkansas,India,715,3.1,3823274476,2024-08-19,2026-02-14
+480,Brooks and Sons Hospital,Multi-Specialty,Hansonchester,Iowa,India,491,2.7,0103325592,2024-08-17,2026-05-11
+481,"Bailey, Copeland and Robinson Hospital",Private,West Daniel,South Carolina,India,78,4.4,5379543696,2025-01-19,2026-03-28
+482,"Crawford, Terry and Wang Hospital",Government,Micheleton,Wisconsin,India,158,2.8,0483739721,2023-10-24,2026-04-03
+483,Gomez Group Hospital,Government,Port Brenda,Missouri,India,659,4.0,5057023827,2023-12-27,2025-11-14
+484,Fisher PLC Hospital,Government,Alisonport,North Carolina,India,776,4.8,8170926702,2024-08-20,2026-07-29
+485,Wilson-Phillips Hospital,Private,South Alec,Missouri,India,854,4.7,1580785733,2024-06-09,2026-03-05
+486,Robinson-Alvarez Hospital,Government,East Jamie,Nebraska,India,124,3.2,6238710911,2024-01-20,2026-05-21
+487,Brewer-Marquez Hospital,Government,Mathewshaven,Delaware,India,887,4.6,7780508031,2024-02-14,2025-10-11
+488,Golden Ltd Hospital,Private,South Kathryn,California,India,195,2.5,8988623356,2024-11-18,2026-02-26
+489,Baker-Johnson Hospital,Multi-Specialty,Roweport,New Jersey,India,177,2.5,5616332988,2023-11-04,2025-10-31
+490,Castro-Stout Hospital,Private,Port Kimberlymouth,Colorado,India,902,4.0,8429485211,2023-11-21,2026-02-09
+491,"Coleman, Skinner and Avery Hospital",Government,Brianbury,Ohio,India,91,3.4,7072786345,2024-06-21,2025-12-12
+492,Hall PLC Hospital,Government,Morrisland,Florida,India,405,3.5,7958092305,2024-04-21,2026-09-20
+493,Krueger-Bryant Hospital,Private,East Brookestad,Georgia,India,90,3.9,9541974265,2024-03-29,2026-01-09
+494,Stokes PLC Hospital,Multi-Specialty,Virginiaton,Utah,India,983,3.0,8488652805,2025-01-08,2026-05-06
+495,Parker Inc Hospital,Government,Cochranfurt,New Jersey,India,83,3.0,6543439151,2023-11-08,2026-08-04
+496,"Roy, Johnson and Wilcox Hospital",Government,Aprilton,Idaho,India,66,3.7,6549926952,2024-02-17,2025-12-13
+497,Campos-Reeves Hospital,Government,New Marissa,Pennsylvania,India,726,4.4,9670100514,2023-12-18,2026-04-01
+498,"Potter, Martinez and Martinez Hospital",Private,North Jesse,Oregon,India,202,4.0,8102086703,2025-02-10,2025-10-26
+499,Fry-Chavez Hospital,Government,Fergusonton,New Mexico,India,427,3.2,4349990979,2024-03-06,2026-08-06
+500,Nelson Inc Hospital,Multi-Specialty,East John,Florida,India,637,3.6,4084023120,2023-10-12,2025-11-08
+501,"James, Juarez and Smith Hospital",Government,Thompsonside,Wyoming,India,648,2.9,1198222718,2025-02-20,2026-08-05
+502,Forbes-Rangel Hospital,Government,Port Dean,Nevada,India,678,2.7,1075591893,2025-02-22,2026-02-21
+503,Arnold-Williams Hospital,Multi-Specialty,New Deborahstad,Iowa,India,923,4.5,9168220470,2025-07-05,2025-10-21
+504,"Franklin, Best and Long Hospital",Government,Christinehaven,Missouri,India,391,3.2,9043670603,2024-06-16,2026-02-22
+505,Dunn PLC Hospital,Private,Lake Alexandra,Idaho,India,76,2.9,2131195727,2024-06-05,2026-09-16
+506,"Irwin, Smith and Perez Hospital",Private,North Nicholasmouth,Minnesota,India,874,4.2,8558264963,2025-09-14,2026-01-08
+507,Smith LLC Hospital,Private,Morsemouth,South Dakota,India,336,4.0,2786884277,2024-10-01,2026-06-15
+508,Brown-Hines Hospital,Multi-Specialty,New Timothyville,Tennessee,India,695,4.1,9428572183,2025-04-24,2026-05-27
+509,"Mcfarland, Daniels and Cox Hospital",Government,Jonathanchester,Arizona,India,780,3.1,3349609238,2024-05-02,2026-01-31
+510,Edwards LLC Hospital,Private,Dennisborough,Minnesota,India,217,3.1,1093681880,2025-04-27,2026-02-06
+511,Hoffman-Scott Hospital,Multi-Specialty,Deniseport,Arkansas,India,659,3.1,4784352100,2024-10-15,2025-12-05
+512,"Jackson, Collins and Morrison Hospital",Government,New Michael,California,India,317,2.9,9883579193,2025-07-06,2025-12-18
+513,Lloyd-Edwards Hospital,Multi-Specialty,Butlerstad,New Hampshire,India,798,4.1,5142348778,2025-06-17,2026-05-14
+514,"Hughes, Welch and Potts Hospital",Private,Joneschester,Oklahoma,India,870,4.6,5522947054,2024-01-24,2026-09-19
+515,Smith-Johnson Hospital,Private,Lopezchester,Oregon,India,504,4.3,7730627635,2025-01-10,2026-04-06
+516,Zavala Group Hospital,Private,Nicholasport,Nebraska,India,955,4.5,6153221430,2024-11-30,2026-02-28
+517,Swanson-Pierce Hospital,Multi-Specialty,Gonzalezville,Ohio,India,734,3.5,6458240890,2024-10-29,2026-08-24
+518,Hurley-Leonard Hospital,Multi-Specialty,Tinaville,Connecticut,India,450,4.1,1691023329,2024-06-24,2025-11-22
+519,Cowan-Martinez Hospital,Private,Lake Laurieborough,Colorado,India,971,3.4,3290028500,2025-06-23,2026-01-14
+520,Moran-Carroll Hospital,Multi-Specialty,Nathanland,Colorado,India,525,3.8,9482454141,2024-05-26,2026-05-18
+521,Snyder-Mcdonald Hospital,Private,Andersonside,Texas,India,751,3.7,5702524395,2025-09-07,2026-03-05
+522,Faulkner-Harris Hospital,Private,Lake Laura,Maine,India,683,2.9,5690928813,2024-04-08,2026-05-07
+523,Cole LLC Hospital,Government,Martinezland,Louisiana,India,607,3.5,4631236103,2024-10-28,2025-11-03
+524,"Manning, Gregory and Cannon Hospital",Multi-Specialty,Webbton,Wisconsin,India,625,4.9,3756938853,2025-07-25,2026-09-24
+525,Torres and Sons Hospital,Private,West Jamesbury,Iowa,India,179,3.1,4584615725,2025-08-05,2026-09-22
+526,Arnold-Dawson Hospital,Private,Allisonville,New Jersey,India,871,2.8,5893505497,2025-09-12,2026-01-03
+527,Palmer-Schultz Hospital,Multi-Specialty,Lake Lisafort,Iowa,India,412,3.5,1921314951,2023-12-27,2026-09-06
+528,Rogers Ltd Hospital,Government,Kennethbury,Texas,India,754,4.5,9071275531,2025-08-01,2026-03-24
+529,"Nash, Payne and Valdez Hospital",Government,Williamsmouth,Florida,India,868,4.0,8580804179,2025-02-26,2026-04-13
+530,Hobbs Ltd Hospital,Private,East John,Colorado,India,742,4.2,9097959033,2025-04-04,2026-08-29
+531,"Brown, Lowe and Quinn Hospital",Multi-Specialty,Lake Michelle,Alabama,India,341,3.0,7081007261,2024-10-06,2026-08-14
+532,"King, Hudson and Hernandez Hospital",Government,Thompsonburgh,South Carolina,India,420,4.0,7412043616,2023-10-06,2025-12-13
+533,Everett and Sons Hospital,Multi-Specialty,South Joseph,Missouri,India,843,3.3,4176595572,2024-01-12,2026-01-01
+534,Fuller-Daniel Hospital,Multi-Specialty,South Jamesfort,Montana,India,78,4.6,5277975209,2023-12-28,2026-01-17
+535,Castillo Group Hospital,Private,New Melissahaven,Indiana,India,198,4.1,6717600943,2024-02-26,2026-03-15
+536,Stephenson-Rios Hospital,Government,Edgartown,Minnesota,India,828,3.0,0610316395,2024-10-01,2026-07-01
+537,"Gomez, Klein and Gilmore Hospital",Private,North Josephfurt,West Virginia,India,345,2.7,2790785074,2024-06-21,2026-09-30
+538,Cruz Ltd Hospital,Government,Port Michaelmouth,Massachusetts,India,60,2.6,3498791547,2025-03-13,2026-05-22
+539,Bell-King Hospital,Government,Port Audrey,Oklahoma,India,561,3.4,3229320055,2024-04-28,2026-04-10
+540,Thomas-Davis Hospital,Government,Marymouth,Maryland,India,725,3.2,4315973689,2025-05-04,2026-07-09
+541,Brewer Group Hospital,Government,Andersonfurt,Kentucky,India,162,4.1,9579567040,2024-05-30,2026-03-29
+542,Davis-Collins Hospital,Government,Lopezville,Indiana,India,236,3.7,2417504837,2024-02-14,2026-08-15
+543,"Howell, Rogers and Johnson Hospital",Multi-Specialty,West Ashley,Utah,India,856,3.2,9984621279,2025-03-24,2026-04-26
+544,Dixon Group Hospital,Private,Jonathanstad,Arkansas,India,793,2.9,2246533177,2025-02-14,2026-06-08
+545,Hernandez Ltd Hospital,Multi-Specialty,Kentburgh,Arizona,India,276,2.8,6217933784,2025-05-21,2026-04-24
+546,Garcia-Zuniga Hospital,Government,Robertport,Idaho,India,359,4.7,0904081354,2024-02-07,2026-01-17
+547,"Wilkins, Gomez and Thomas Hospital",Private,New Tami,New York,India,147,3.1,8183719979,2024-01-12,2025-10-20
+548,Hamilton-Aguilar Hospital,Government,Dylanborough,Michigan,India,104,4.1,8122049714,2024-08-24,2026-05-29
+549,Fletcher Inc Hospital,Private,Coleshire,Connecticut,India,672,4.5,2363775148,2024-01-05,2026-05-01
+550,"Mcfarland, Green and Richards Hospital",Multi-Specialty,South Tiffanyport,Georgia,India,713,4.0,9851506422,2025-08-10,2026-02-21
+551,"Thomas, Foster and Marsh Hospital",Private,Hernandezstad,Hawaii,India,807,4.6,8012848132,2024-03-18,2025-10-13
+552,"Decker, Davis and Thompson Hospital",Private,Silvabury,Michigan,India,455,3.5,6776901137,2024-04-03,2026-02-12
+553,Valentine-Mitchell Hospital,Private,Turnerland,Maryland,India,118,4.9,9952736988,2024-05-25,2025-10-13
+554,Valentine-Jones Hospital,Private,North Cynthia,North Carolina,India,361,2.8,0869821887,2024-09-11,2026-02-20
+555,"Anderson, Deleon and Hall Hospital",Private,Hensleyside,Kansas,India,338,2.8,3737931301,2025-08-06,2026-08-14
+556,"Patton, Coleman and Black Hospital",Government,Port Sherryville,Hawaii,India,811,4.1,0948258896,2025-02-02,2026-09-06
+557,Howe LLC Hospital,Private,East Edward,Florida,India,597,4.9,1125080421,2024-05-10,2026-04-07
+558,"Snow, Barrera and Miller Hospital",Private,West Jessicaview,New Hampshire,India,800,4.5,3949320341,2025-09-10,2026-02-17
+559,Gross PLC Hospital,Multi-Specialty,New Michaelhaven,Louisiana,India,197,2.7,1692573496,2025-07-31,2026-02-20
+560,Brown-Thomas Hospital,Private,Stephanieside,Vermont,India,516,3.2,0812455080,2023-10-22,2026-05-28
+561,"Ruiz, Harper and Cook Hospital",Multi-Specialty,Spenceland,Kentucky,India,788,4.8,5722276240,2024-02-25,2025-11-18
+562,"Johnson, Atkinson and Lyons Hospital",Government,Port Lisa,Idaho,India,293,3.1,8433919011,2024-01-16,2026-08-14
+563,"Jones, Brady and Bowen Hospital",Private,Brianville,Washington,India,540,4.5,7374807429,2024-08-08,2026-09-03
+564,Hobbs-Garza Hospital,Multi-Specialty,Christinaport,Massachusetts,India,898,4.6,9878129191,2025-03-29,2025-12-27
+565,Moore-Hughes Hospital,Multi-Specialty,Lake Susan,Alaska,India,556,3.7,5900965946,2025-03-27,2025-12-09
+566,"Wood, Flores and Camacho Hospital",Government,East Victoriafurt,Kentucky,India,414,3.5,8821111017,2024-04-22,2026-05-17
+567,"Perry, Carter and Moreno Hospital",Private,Mcleanhaven,Minnesota,India,531,3.6,2363084139,2024-06-08,2026-08-31
+568,"Harvey, Tucker and Davis Hospital",Private,North Andrewside,South Carolina,India,250,3.1,9950006794,2025-06-20,2026-05-07
+569,Jones Ltd Hospital,Multi-Specialty,Carmenview,North Carolina,India,203,4.7,2401263368,2024-09-02,2026-01-12
+570,Morris and Sons Hospital,Private,Barbaraborough,Montana,India,499,3.6,2727354355,2024-11-24,2026-04-02
+571,Sutton LLC Hospital,Multi-Specialty,South John,North Dakota,India,550,4.7,3369978800,2025-07-16,2025-11-21
+572,Tran-Scott Hospital,Private,Lake Pamela,Wisconsin,India,122,2.8,1634757442,2024-07-04,2025-11-11
+573,Martin Inc Hospital,Multi-Specialty,Port Jessica,New Hampshire,India,762,5.0,5684722930,2024-09-23,2026-04-26
+574,Oliver-Lloyd Hospital,Private,Miketon,Michigan,India,345,3.6,0251516238,2024-10-23,2026-08-14
+575,"Harvey, Oliver and Scott Hospital",Government,Port Brian,California,India,66,2.6,6610112051,2024-01-06,2026-06-10
+576,Hull-Randolph Hospital,Private,Patriciamouth,Virginia,India,690,2.6,9565315806,2025-03-11,2026-01-26
+577,Arnold LLC Hospital,Private,South Bradley,Kentucky,India,266,4.4,3740453515,2024-12-29,2026-02-22
+578,Decker-Goodwin Hospital,Government,Flemingside,Pennsylvania,India,110,4.1,3341074321,2025-08-13,2026-09-30
+579,George-Sanders Hospital,Private,New Matthewville,Delaware,India,988,4.5,7562681614,2024-05-20,2026-04-28
+580,Cantrell Inc Hospital,Government,Mooreville,Maryland,India,665,2.8,3518846169,2025-01-31,2026-07-16
+581,Meyer Group Hospital,Private,Stephaniechester,Louisiana,India,91,2.6,5087197360,2025-07-31,2026-05-08
+582,"Evans, Martin and Castro Hospital",Multi-Specialty,Emilyport,Minnesota,India,74,3.8,5965574900,2024-11-04,2025-12-08
+583,Sawyer-Mckenzie Hospital,Multi-Specialty,North Rickybury,Texas,India,88,3.5,8911981985,2024-10-18,2026-07-23
+584,"Marshall, Obrien and Parker Hospital",Private,Sierrashire,Mississippi,India,852,3.7,0601588934,2024-09-06,2025-11-01
+585,Anderson-Wright Hospital,Private,Cathyfort,Missouri,India,180,5.0,3222007505,2024-11-06,2026-06-05
+586,Bush-Oconnell Hospital,Private,East Seanport,Georgia,India,547,4.9,1916824732,2023-11-08,2026-02-11
+587,Hernandez-Berry Hospital,Multi-Specialty,Coxbury,Alaska,India,278,4.9,3234575265,2024-05-11,2026-09-24
+588,"Miller, Buck and Warner Hospital",Private,Robertschester,Missouri,India,157,4.5,2213396916,2025-04-17,2026-04-17
+589,Jackson Ltd Hospital,Multi-Specialty,Maryview,Oklahoma,India,221,3.4,3971929888,2024-12-11,2026-03-26
+590,Morris Ltd Hospital,Government,Port Jamesbury,Washington,India,484,3.5,8427577875,2025-06-29,2026-06-01
+591,Brown Ltd Hospital,Multi-Specialty,Gibsonfurt,Utah,India,527,3.9,2182703931,2024-03-31,2026-08-14
+592,Johnson Group Hospital,Multi-Specialty,New Alicia,Utah,India,151,4.6,8602183453,2025-06-14,2025-12-10
+593,Hughes-Scott Hospital,Government,Conleyberg,Hawaii,India,915,2.7,3940756987,2023-11-24,2026-01-04
+594,"Reed, Blevins and Burke Hospital",Multi-Specialty,Amandaton,Nevada,India,573,3.6,0308064298,2025-08-27,2025-11-21
+595,Smith-Ross Hospital,Private,North Brandi,Vermont,India,324,2.7,5054456737,2024-05-04,2025-11-16
+596,Kirk-Anderson Hospital,Private,Gregoryside,South Dakota,India,662,3.8,9733796059,2024-01-16,2026-04-16
+597,"Leblanc, Robinson and Jones Hospital",Multi-Specialty,West Sharonborough,California,India,93,4.7,3759783089,2024-08-30,2025-10-22
+598,White-Whitehead Hospital,Private,Wallacefurt,Mississippi,India,866,4.5,2316690291,2025-02-11,2026-02-22
+599,Brewer-Raymond Hospital,Multi-Specialty,Port Pamelaland,Arkansas,India,66,3.1,9527637891,2024-03-10,2026-01-30
+600,Waters-Wright Hospital,Private,Lake Kenneth,North Carolina,India,379,4.9,1034390498,2024-03-31,2026-07-26
+601,Crawford-Schroeder Hospital,Private,West Roger,Idaho,India,618,4.2,1821307708,2024-06-02,2025-10-01
+602,Mills LLC Hospital,Multi-Specialty,Garzaview,Idaho,India,872,2.5,4109580298,2025-06-23,2026-01-05
+603,Ross-Norman Hospital,Private,West Tannerchester,Utah,India,546,3.1,3947588982,2024-09-13,2025-12-20
+604,Turner-Watts Hospital,Multi-Specialty,West Aliciaville,Alaska,India,864,3.2,0155455018,2024-06-27,2026-03-26
+605,Kim LLC Hospital,Private,New Trevorburgh,Colorado,India,61,2.7,1687038704,2024-07-31,2026-05-31
+606,Fernandez Inc Hospital,Private,West Deborahfurt,New Jersey,India,367,4.9,7910265461,2024-04-24,2026-06-30
+607,"Clay, Pineda and Cook Hospital",Government,West Donna,Wisconsin,India,641,3.7,9654274802,2024-07-22,2025-11-03
+608,Davis-Simmons Hospital,Government,Michelleview,California,India,265,4.7,9188968261,2025-05-17,2026-05-25
+609,Dixon-Smith Hospital,Multi-Specialty,Howardville,New York,India,388,3.3,7971461090,2024-10-19,2026-06-03
+610,Gay Inc Hospital,Government,Johnborough,Rhode Island,India,825,2.8,4388435596,2024-03-25,2026-04-28
+611,"Miller, Brock and Farley Hospital",Multi-Specialty,Thomasville,Nevada,India,710,3.7,2955171568,2025-07-23,2026-04-30
+612,"Jacobs, Fischer and Perez Hospital",Government,New Johnhaven,Oklahoma,India,130,2.8,0600431715,2023-12-25,2026-08-09
+613,"Smith, Benson and White Hospital",Private,Lake Danielport,Nevada,India,776,3.7,5292204345,2024-05-15,2026-07-11
+614,"Santos, Snow and Gordon Hospital",Multi-Specialty,Tamaraview,Kansas,India,534,4.8,5196592948,2024-11-30,2025-12-16
+615,"Leon, Murillo and Bates Hospital",Multi-Specialty,Hamiltonberg,Washington,India,423,3.8,4290988140,2023-10-15,2025-11-12
+616,"Perry, Turner and Barton Hospital",Private,Shirleyfurt,New Hampshire,India,759,4.0,0250088492,2024-06-07,2026-01-29
+617,Bell Inc Hospital,Multi-Specialty,Robertberg,Vermont,India,249,2.9,2854670642,2025-08-24,2025-11-02
+618,Diaz-Miller Hospital,Multi-Specialty,Sanchezfort,Texas,India,586,2.6,2026391022,2025-06-05,2026-08-28
+619,Smith PLC Hospital,Government,East Robertbury,Oregon,India,515,2.8,1954981554,2023-11-16,2025-11-18
+620,Rodriguez Ltd Hospital,Multi-Specialty,Meaganmouth,California,India,138,4.0,2682227215,2024-03-27,2025-12-18
+621,Soto-Bass Hospital,Private,Johnsonmouth,California,India,317,2.7,5417126140,2024-07-18,2026-08-09
+622,Wright-Hoover Hospital,Government,New Adamport,Minnesota,India,704,3.4,2373148678,2025-08-12,2026-03-05
+623,Hinton PLC Hospital,Government,West Andrea,Nevada,India,620,3.9,0010640083,2025-01-04,2025-11-23
+624,Graham Ltd Hospital,Private,Christopherton,Connecticut,India,971,3.5,6160637708,2025-01-04,2026-05-01
+625,"Baldwin, Clark and Huff Hospital",Private,Port Scottland,Alaska,India,538,2.9,4626003602,2024-03-26,2026-05-05
+626,"Jones, Russell and Potts Hospital",Government,New Crystalview,Kentucky,India,926,3.2,5188099630,2024-10-04,2026-05-06
+627,"Larsen, Schmidt and Miller Hospital",Multi-Specialty,North Laura,Montana,India,587,4.8,7642534578,2024-12-22,2026-05-13
+628,Simmons LLC Hospital,Government,Ryanside,Montana,India,96,4.2,3653446603,2025-07-27,2025-10-04
+629,Gilbert Ltd Hospital,Private,Daltonburgh,Florida,India,337,3.7,2887489386,2025-06-15,2026-01-29
+630,"Garcia, Young and Baker Hospital",Government,West Tiffany,Missouri,India,827,2.5,3259109596,2025-07-22,2025-12-26
+631,Taylor and Sons Hospital,Private,Port Harryview,Oregon,India,65,5.0,5206840741,2024-04-17,2026-08-25
+632,James Inc Hospital,Government,Rodriguezmouth,Wyoming,India,760,4.2,4959348504,2025-02-16,2025-10-16
+633,Mcpherson Group Hospital,Multi-Specialty,South Darrylshire,Michigan,India,450,3.3,0704384650,2025-09-01,2026-03-05
+634,Burke PLC Hospital,Government,Hamiltontown,Texas,India,968,4.7,9015794980,2024-01-05,2026-07-22
+635,Williams-Flowers Hospital,Government,West Jacob,North Dakota,India,843,3.1,9527020631,2025-08-24,2026-08-16
+636,Pratt LLC Hospital,Private,Adamberg,Connecticut,India,135,3.9,1099324475,2024-08-02,2026-03-29
+637,"Turner, Rogers and Mcdonald Hospital",Private,Lake Danielchester,North Carolina,India,299,4.1,4431895715,2025-07-17,2026-01-26
+638,"Martin, Hubbard and May Hospital",Private,East Karlhaven,Minnesota,India,440,3.1,7743290619,2025-06-12,2026-04-14
+639,"Rodriguez, Stevens and King Hospital",Government,Marcmouth,Alaska,India,831,4.9,7830476682,2025-06-14,2025-10-20
+640,"Nichols, Roman and Holland Hospital",Multi-Specialty,Port Douglasland,Washington,India,384,4.4,9989671253,2025-07-10,2026-07-11
+641,Flores and Sons Hospital,Private,Thomashaven,South Carolina,India,678,3.9,5529985439,2025-02-17,2026-07-13
+642,"Moore, Jones and Taylor Hospital",Private,Richardsfurt,Hawaii,India,568,3.0,2460534409,2023-10-07,2025-11-24
+643,Ritter PLC Hospital,Government,North Christinastad,Missouri,India,186,2.6,4496404232,2025-04-22,2026-08-09
+644,Cantrell and Sons Hospital,Private,Anthonymouth,Indiana,India,932,3.3,8021483373,2024-07-16,2026-08-05
+645,Lynn Group Hospital,Multi-Specialty,Jessestad,Oklahoma,India,737,4.4,3599745503,2025-04-17,2026-05-04
+646,Russell-Jenkins Hospital,Multi-Specialty,Rodriguezland,Arizona,India,889,3.2,4215301010,2023-10-29,2026-08-06
+647,"Hill, Hernandez and Garcia Hospital",Private,Danielton,Minnesota,India,547,3.8,9008552459,2024-08-03,2025-10-28
+648,"Weaver, Moon and Horton Hospital",Private,Lake Timothyborough,Iowa,India,876,4.3,1964068625,2025-05-29,2026-02-08
+649,"Hines, Watkins and Manning Hospital",Government,Davilatown,Washington,India,776,2.8,4637317511,2025-01-29,2026-07-29
+650,Terry-Wiley Hospital,Multi-Specialty,New Frederick,New Hampshire,India,526,4.2,0530314689,2025-02-14,2026-05-12
+651,Mcgrath-Obrien Hospital,Multi-Specialty,New Jeremy,New York,India,643,2.7,0937776590,2023-11-09,2026-07-03
+652,West Inc Hospital,Private,Port Melinda,Rhode Island,India,272,4.9,4384262853,2025-05-25,2026-01-16
+653,Brown-Williams Hospital,Government,Rodriguezhaven,New Mexico,India,421,3.7,2068111815,2025-09-13,2026-06-26
+654,Floyd LLC Hospital,Multi-Specialty,Whiteshire,Indiana,India,984,2.9,8527658903,2025-02-01,2026-07-10
+655,Howard-Jones Hospital,Multi-Specialty,North Alexis,Kentucky,India,451,3.4,6304985645,2024-08-25,2025-10-17
+656,Daugherty Inc Hospital,Government,Port Donna,Missouri,India,492,3.5,5091808622,2024-07-07,2026-06-28
+657,Garcia-Erickson Hospital,Government,South Jenniferburgh,Utah,India,539,4.4,2816060203,2023-12-07,2026-08-21
+658,James and Sons Hospital,Multi-Specialty,Ethanton,Georgia,India,664,4.4,2207509679,2024-06-27,2026-08-27
+659,"Copeland, Brown and Brown Hospital",Multi-Specialty,West Jennifer,Illinois,India,322,4.0,1916835525,2025-07-16,2025-11-18
+660,Mitchell-Foster Hospital,Government,Ianshire,Oregon,India,575,2.8,7084201062,2024-11-06,2026-01-06
+661,Taylor PLC Hospital,Multi-Specialty,Davidtown,Vermont,India,208,2.9,0775069643,2024-04-01,2026-07-01
+662,Bruce-Rosales Hospital,Private,Feliciaview,Maine,India,201,2.7,1363622674,2025-04-22,2026-09-13
+663,Jones PLC Hospital,Private,Lake Jonathan,Hawaii,India,669,3.9,9767075646,2024-08-28,2026-02-01
+664,"Hill, Carey and Nelson Hospital",Government,Stewartburgh,New Hampshire,India,237,4.7,6358734333,2024-05-19,2025-12-22
+665,Mack-Wright Hospital,Government,Floreshaven,New York,India,862,3.6,5606077239,2023-12-24,2026-02-11
+666,"Woods, Leon and Garner Hospital",Government,North Christopher,Maryland,India,147,2.9,9268068803,2024-09-12,2025-11-02
+667,Cochran-Carlson Hospital,Private,Charlesville,Arkansas,India,180,3.9,6753232184,2025-07-09,2026-03-29
+668,Gay LLC Hospital,Multi-Specialty,North Jeffrey,Wisconsin,India,854,4.5,6712630881,2023-12-16,2026-06-05
+669,"Ramirez, Wood and Lloyd Hospital",Private,Dominguezton,Wyoming,India,220,4.4,8755575905,2024-04-06,2026-09-15
+670,Osborn LLC Hospital,Multi-Specialty,Leeborough,Nevada,India,985,4.7,9688733482,2025-01-28,2026-07-12
+671,Thompson-Pineda Hospital,Private,Richardsonfort,Florida,India,232,3.2,6796036070,2025-09-16,2026-01-28
+672,Rodgers and Sons Hospital,Multi-Specialty,Robersonside,Tennessee,India,413,3.0,6859382411,2024-10-10,2025-09-30
+673,"Ward, Barnes and Sawyer Hospital",Private,West Tiffanyburgh,New Hampshire,India,88,4.7,7898408180,2025-01-02,2025-10-25
+674,Henderson-Soto Hospital,Government,Ericland,Kentucky,India,576,4.1,7744430528,2024-11-24,2026-06-04
+675,Smith and Sons Hospital,Private,South Kevin,Nevada,India,937,3.3,8765099256,2025-09-18,2026-06-16
+676,White-Chapman Hospital,Multi-Specialty,Lake Nicholashaven,Mississippi,India,546,4.4,2463022560,2025-05-31,2026-08-06
+677,Jones-Martin Hospital,Private,Port Christopher,Colorado,India,565,4.5,2660380919,2023-12-02,2026-04-16
+678,"Thomas, Pearson and Williams Hospital",Private,Andreaton,Pennsylvania,India,398,4.0,4447866906,2024-06-21,2025-12-09
+679,Williamson-Clayton Hospital,Private,Banksburgh,Kentucky,India,970,4.2,5922103927,2024-11-30,2025-10-10
+680,Willis Group Hospital,Government,North Cody,Arkansas,India,446,3.4,7341426893,2023-12-11,2026-05-30
+681,"Taylor, Williams and Mason Hospital",Private,Port Kevinchester,Washington,India,771,3.8,8463840733,2023-10-08,2026-05-19
+682,Avery Ltd Hospital,Government,Torresport,Delaware,India,210,3.8,6101329233,2025-09-11,2026-01-16
+683,Mitchell and Sons Hospital,Government,Joneshaven,Texas,India,65,4.6,7913573242,2024-01-15,2026-07-21
+684,"Craig, Mcclain and Dunn Hospital",Private,Gabriellaberg,Wyoming,India,542,4.6,7846537765,2024-04-16,2026-09-15
+685,Smith PLC Hospital,Private,North Shelby,New Jersey,India,475,4.6,3044050272,2023-11-30,2025-10-05
+686,Allen-York Hospital,Private,Port Craig,Wyoming,India,157,2.5,4393532720,2024-04-13,2025-12-26
+687,Franklin-Carpenter Hospital,Multi-Specialty,Port Dwayne,Alabama,India,943,4.4,1589358352,2025-05-28,2026-09-17
+688,"Krause, Walker and Terry Hospital",Private,Alfredside,Wyoming,India,499,4.4,6145937465,2024-04-13,2026-05-17
+689,Martinez-Thompson Hospital,Government,Lake Taylorland,Delaware,India,360,4.2,7946260177,2025-03-19,2025-11-16
+690,"Lawrence, Irwin and Lopez Hospital",Private,Port Virginia,Tennessee,India,788,4.4,2295812364,2024-01-27,2026-01-29
+691,Robinson-Gomez Hospital,Multi-Specialty,Jamieberg,Georgia,India,219,4.6,2308643651,2024-05-22,2026-08-28
+692,Barber LLC Hospital,Private,West Joshuafort,Florida,India,595,3.7,8626322593,2024-11-03,2026-09-09
+693,Lawson Inc Hospital,Multi-Specialty,East Alexis,Colorado,India,463,3.8,4130770202,2025-06-03,2026-09-14
+694,Hicks-Schneider Hospital,Multi-Specialty,South Jefferyburgh,Ohio,India,300,2.8,3725471555,2023-10-14,2026-06-09
+695,"Buckley, Cannon and Johnson Hospital",Private,Valerieside,North Carolina,India,808,3.5,1712529628,2025-04-08,2026-08-23
+696,Johnson Inc Hospital,Government,Ramseyton,Pennsylvania,India,830,4.1,8143761821,2024-03-25,2025-10-14
+697,"Ortiz, Phillips and Mendoza Hospital",Multi-Specialty,South Kyleport,Washington,India,190,4.5,0995144710,2025-01-29,2025-10-02
+698,"Nielsen, Robbins and Ochoa Hospital",Private,Sarahborough,Wyoming,India,323,3.0,6230595149,2023-10-04,2025-10-02
+699,Perkins PLC Hospital,Private,South Joseph,Oklahoma,India,465,2.8,0330331378,2024-08-12,2026-05-05
+700,Anderson-Alexander Hospital,Government,Browntown,Massachusetts,India,657,4.2,1578818687,2025-08-30,2026-09-22
+701,Jimenez Group Hospital,Multi-Specialty,Lake Hannahmouth,Nebraska,India,788,2.5,9662059782,2024-08-26,2026-06-21
+702,"Gomez, Valentine and Gutierrez Hospital",Multi-Specialty,West Michael,Kentucky,India,940,2.9,3072619779,2025-08-07,2026-09-17
+703,Pham-Jacobson Hospital,Private,Krystalbury,Connecticut,India,88,2.6,1221605403,2025-03-20,2025-11-19
+704,Roth Group Hospital,Private,New Brenda,Rhode Island,India,863,2.9,5938007553,2025-08-08,2026-07-31
+705,Whitaker-Wright Hospital,Government,Charlesmouth,West Virginia,India,78,3.0,9785893913,2025-01-01,2025-10-27
+706,Jones-Santana Hospital,Government,Tammyview,Kansas,India,526,3.5,7262182904,2024-03-15,2026-06-29
+707,Garcia LLC Hospital,Multi-Specialty,Tommyview,Tennessee,India,367,3.5,8282845544,2024-10-08,2026-02-11
+708,Harris-Walls Hospital,Multi-Specialty,South Angela,Kentucky,India,294,4.7,9865900050,2024-11-08,2026-03-14
+709,"Johnson, Floyd and Butler Hospital",Private,Jacobfort,Louisiana,India,797,3.8,9735600542,2025-06-20,2026-09-25
+710,"Rivers, Ryan and West Hospital",Multi-Specialty,Lake Brooke,Connecticut,India,746,4.3,6674130458,2024-04-21,2026-04-21
+711,Miller Inc Hospital,Government,South Brandon,Arkansas,India,321,2.8,8071933731,2024-12-07,2026-01-03
+712,"Carter, Nash and Haynes Hospital",Government,Christopherborough,North Carolina,India,489,3.1,5115210052,2024-11-08,2026-01-28
+713,Thomas and Sons Hospital,Private,South Brian,Illinois,India,797,4.3,8821996297,2025-05-28,2026-04-23
+714,Russell LLC Hospital,Government,Morenoport,Virginia,India,288,2.6,8703875784,2025-09-27,2025-11-07
+715,"Dixon, Anderson and Franklin Hospital",Government,Port Nicolas,Minnesota,India,426,3.7,5768762034,2024-03-31,2026-02-16
+716,Thomas-Campbell Hospital,Government,Perezville,Idaho,India,315,4.0,5834355599,2025-09-03,2025-11-26
+717,Boyle-Reid Hospital,Government,Lake Erinland,Nebraska,India,975,4.0,6255931643,2025-09-26,2025-12-24
+718,Ward-Parker Hospital,Private,New Carlos,Louisiana,India,970,2.6,2256093353,2024-01-13,2025-12-11
+719,"Gonzales, Brown and Deleon Hospital",Private,Port Lauren,Kentucky,India,408,3.3,5911975987,2025-05-21,2026-02-24
+720,"Sanford, Martin and Williams Hospital",Multi-Specialty,North Roberto,Hawaii,India,389,4.1,1721564123,2025-06-08,2026-06-22
+721,"Owens, Herrera and Hopkins Hospital",Government,Kiarachester,Kansas,India,438,2.9,3587161065,2025-01-27,2026-08-12
+722,Garcia Ltd Hospital,Multi-Specialty,New Jonathanside,Wyoming,India,626,4.2,2106121096,2025-06-10,2026-03-25
+723,Gomez LLC Hospital,Private,East Alexander,Minnesota,India,738,4.4,8460389580,2025-06-30,2025-12-30
+724,Cervantes-Mitchell Hospital,Private,West Kevinstad,Alabama,India,52,5.0,7468286624,2023-11-02,2026-07-30
+725,Johnson Inc Hospital,Private,Kristyville,Connecticut,India,478,3.0,5058567539,2025-01-18,2026-01-20
+726,"Yates, Lee and Riley Hospital",Private,Mitchellhaven,South Dakota,India,191,4.6,4148892215,2024-02-28,2026-08-02
+727,"Mcdonald, Hampton and Ortega Hospital",Private,North Martinshire,Colorado,India,425,3.8,4445124772,2024-06-10,2026-02-02
+728,"Ramirez, Richardson and Anderson Hospital",Private,New Ericland,Delaware,India,719,3.4,8231709807,2024-03-25,2025-11-05
+729,"Gates, Nash and Reed Hospital",Private,Goodmouth,Rhode Island,India,373,2.8,6947865144,2025-01-24,2026-03-15
+730,"Silva, Conrad and Robinson Hospital",Government,Piercechester,Colorado,India,195,4.3,8884076007,2024-03-23,2026-02-03
+731,"Larson, Fry and Thomas Hospital",Multi-Specialty,Johntown,New Mexico,India,342,3.1,8146460212,2024-08-23,2026-06-01
+732,"Price, Shields and Esparza Hospital",Private,South Sarahmouth,Idaho,India,714,3.4,7727433309,2025-09-15,2026-09-22
+733,"Olson, Gordon and Guerrero Hospital",Government,Harrisbury,Utah,India,481,2.7,8590187962,2025-08-08,2026-04-21
+734,Bennett PLC Hospital,Government,Jefferyshire,Wyoming,India,754,4.5,0210224966,2025-05-05,2026-03-15
+735,"Neal, Bridges and Norman Hospital",Multi-Specialty,South David,South Dakota,India,998,4.4,0198289943,2024-06-11,2025-12-13
+736,Harris-Foster Hospital,Private,Cartertown,Delaware,India,634,4.3,7016770254,2025-08-09,2026-07-06
+737,Ruiz-Chambers Hospital,Multi-Specialty,Anthonychester,Ohio,India,448,3.2,4901665057,2023-11-03,2026-08-18
+738,Smith Inc Hospital,Private,South Angelaborough,Arkansas,India,866,2.9,0068217853,2024-01-30,2026-05-27
+739,Soto LLC Hospital,Government,Orozcostad,Kentucky,India,938,4.1,6975908130,2025-05-15,2026-05-17
+740,Price PLC Hospital,Government,Port Antonio,New Hampshire,India,393,3.7,7326532818,2024-04-29,2026-09-19
+741,Weiss-Williams Hospital,Government,Port Thomas,Nevada,India,189,2.9,5738845519,2023-11-04,2025-12-09
+742,"Barrett, Roberts and Morris Hospital",Government,Halltown,Massachusetts,India,236,4.2,3920548408,2024-07-20,2025-12-19
+743,Martin Inc Hospital,Multi-Specialty,South Cynthia,Arkansas,India,854,5.0,7896522529,2023-12-11,2026-01-14
+744,"Bowen, Harris and Stuart Hospital",Private,Castilloborough,New York,India,110,4.4,3000847422,2024-09-03,2026-08-17
+745,Smith Group Hospital,Private,East Danielmouth,Washington,India,988,4.3,6976804745,2024-02-08,2026-09-25
+746,Watson LLC Hospital,Multi-Specialty,Torresmouth,Virginia,India,429,4.9,2626080121,2025-03-06,2026-08-30
+747,"Gray, Oliver and Dixon Hospital",Private,Lake Emilybury,Massachusetts,India,759,3.0,2359709421,2024-10-04,2026-01-17
+748,"Martinez, Mills and Munoz Hospital",Government,North Thomas,Maryland,India,856,3.9,7880236391,2023-11-12,2025-10-11
+749,Velasquez Group Hospital,Private,Glennchester,Nebraska,India,489,4.9,9520114964,2023-12-24,2026-05-28
+750,Turner-Morris Hospital,Government,Jorgebury,South Dakota,India,368,2.9,1430550086,2025-06-18,2025-11-09
+751,"Castillo, Lewis and Hopkins Hospital",Multi-Specialty,South Susan,Mississippi,India,351,4.3,8082664253,2024-02-19,2026-03-03
+752,"Bryan, Kim and Barber Hospital",Private,Diazchester,New Jersey,India,393,4.0,5243090831,2024-05-28,2025-10-22
+753,"Cooper, Dixon and Lin Hospital",Multi-Specialty,New Hannah,Illinois,India,60,4.0,8323826126,2025-06-30,2026-02-05
+754,Neal-Cohen Hospital,Private,Jonesside,Tennessee,India,111,4.2,5138261819,2025-05-21,2026-02-09
+755,"Ramirez, Alvarez and English Hospital",Government,Crystalview,Illinois,India,894,4.8,1923892896,2024-11-23,2026-09-18
+756,"Boyd, Nelson and Bell Hospital",Multi-Specialty,South Diana,New Hampshire,India,275,4.5,3532650680,2024-05-07,2026-01-07
+757,Christensen-Hampton Hospital,Private,South Ricktown,Arizona,India,202,2.6,1059035477,2024-09-27,2025-12-20
+758,Hansen-Kennedy Hospital,Government,Donovanmouth,Indiana,India,760,4.6,6776005852,2024-11-18,2026-02-24
+759,"Baker, Dean and Doyle Hospital",Multi-Specialty,Lake Terry,Virginia,India,613,3.1,8366248224,2024-09-22,2026-05-14
+760,Moreno-Woodward Hospital,Multi-Specialty,Carlsonview,Nebraska,India,821,3.4,3116540397,2024-08-21,2026-09-22
+761,Lee-Adams Hospital,Private,Carlberg,Maryland,India,620,3.7,5604174185,2023-10-18,2026-09-12
+762,"Kennedy, Gonzalez and Scott Hospital",Private,Andrewport,New Hampshire,India,633,3.7,2034035291,2024-03-20,2026-04-20
+763,"Payne, Wallace and Newton Hospital",Private,South Christine,Ohio,India,709,3.6,9888316622,2025-08-19,2026-05-23
+764,Hogan-Jackson Hospital,Government,New Corey,Virginia,India,910,4.8,2564245148,2025-08-12,2026-07-29
+765,Davis-Peterson Hospital,Private,East Cindy,North Carolina,India,624,4.3,7284481327,2024-08-08,2025-12-12
+766,Abbott PLC Hospital,Multi-Specialty,Josephside,West Virginia,India,359,4.1,3707868843,2024-01-18,2026-06-14
+767,Sparks-Walls Hospital,Multi-Specialty,North Seanborough,Connecticut,India,934,2.6,8561030608,2024-08-02,2026-02-23
+768,"Adams, Austin and West Hospital",Private,Jamesfurt,Michigan,India,292,4.8,5760228563,2024-11-09,2026-01-05
+769,Garner-Torres Hospital,Private,Davismouth,Montana,India,542,4.8,8906376777,2025-04-02,2026-05-24
+770,"Carter, Hendrix and Morris Hospital",Multi-Specialty,Robertstown,New York,India,415,4.5,8443624878,2023-12-09,2026-05-26
+771,Sanders and Sons Hospital,Government,North Heather,Virginia,India,379,2.5,1252766966,2024-01-09,2026-02-06
+772,Mcfarland Group Hospital,Private,Scottmouth,Kansas,India,156,2.6,6016657692,2025-07-18,2026-04-15
+773,"Pollard, Brown and Gross Hospital",Private,Woodburgh,Kansas,India,275,3.1,1330192825,2023-11-25,2026-03-21
+774,English-Ramirez Hospital,Multi-Specialty,New Shelley,Georgia,India,874,2.8,5528412706,2024-03-06,2026-03-23
+775,"Hall, Farmer and Baird Hospital",Private,West Brett,Minnesota,India,267,3.5,5634039293,2024-03-08,2025-12-12
+776,Barnes-Monroe Hospital,Government,Petersonport,Delaware,India,986,4.8,9226364337,2024-03-12,2026-06-13
+777,Anderson-Wilkins Hospital,Multi-Specialty,Garyborough,Maryland,India,802,3.7,3766386520,2024-06-29,2026-08-13
+778,Wilson PLC Hospital,Private,Port Natalie,New York,India,555,2.5,5415093925,2024-02-08,2026-07-11
+779,Mccullough Group Hospital,Multi-Specialty,North Davidville,Utah,India,308,3.2,4977587935,2023-10-23,2026-08-07
+780,Gilbert-Lee Hospital,Private,Cherylmouth,Georgia,India,937,2.6,4950085620,2025-09-26,2025-10-19
+781,"Smith, Hill and Mckinney Hospital",Private,Alexismouth,Wyoming,India,823,2.6,4091958763,2024-06-05,2026-08-31
+782,Wilson-Dunn Hospital,Private,New Tylerbury,New York,India,566,3.2,0793488236,2024-02-03,2026-01-05
+783,Tyler-Terry Hospital,Government,Hensonfurt,Nebraska,India,822,3.2,5204127711,2025-07-14,2026-05-05
+784,Wilson Ltd Hospital,Government,Connerside,Texas,India,103,4.5,8341647378,2024-05-27,2026-07-17
+785,"Martinez, Valdez and King Hospital",Multi-Specialty,Matthewton,New Hampshire,India,96,4.9,4777683408,2024-01-31,2026-04-28
+786,Curry Ltd Hospital,Private,New James,Arkansas,India,776,3.4,2226905345,2025-03-27,2026-02-09
+787,"Blake, Gomez and Mendoza Hospital",Private,Port Jasonstad,Illinois,India,738,3.6,4233165707,2025-03-09,2026-08-05
+788,Bryant LLC Hospital,Government,West Carlahaven,Oregon,India,570,4.6,4954021056,2025-06-09,2026-05-22
+789,"Wang, Moon and Moore Hospital",Private,Port Jocelyn,Arizona,India,148,3.2,3985791252,2025-05-24,2025-10-11
+790,"Wagner, Ramirez and King Hospital",Government,Carmenland,Maryland,India,69,2.9,0613367257,2025-04-22,2026-02-24
+791,Reed-Thomas Hospital,Private,Collinsfort,Oklahoma,India,939,4.6,5881035972,2025-01-02,2026-03-25
+792,"Miller, Rodriguez and Arnold Hospital",Multi-Specialty,South Justinmouth,South Dakota,India,802,2.6,3270424702,2025-06-17,2026-03-08
+793,Nelson Ltd Hospital,Private,West Dustinville,Wyoming,India,622,4.0,7334482473,2025-01-12,2026-07-30
+794,Yoder-Stevenson Hospital,Private,South Brianfurt,California,India,940,3.9,4283995398,2025-04-27,2025-11-02
+795,"Clark, Evans and West Hospital",Government,East Michael,Nevada,India,539,3.4,4384656111,2024-06-28,2025-12-30
+796,"Collins, Morrison and Goodman Hospital",Private,Port Jessicaview,Connecticut,India,468,3.3,6148731018,2025-01-01,2025-12-06
+797,Hart and Sons Hospital,Private,Port Michaeltown,Indiana,India,739,4.4,5379226212,2024-04-26,2026-01-03
+798,Hernandez-Perez Hospital,Government,Armstrongside,Minnesota,India,899,2.7,9796468962,2024-04-22,2026-05-10
+799,Gomez Ltd Hospital,Multi-Specialty,Deborahberg,Mississippi,India,111,3.1,8062664290,2024-07-29,2026-03-12
+800,Nguyen-Lewis Hospital,Multi-Specialty,South Kennethport,Rhode Island,India,194,4.3,0607359991,2024-07-06,2026-08-28
+801,Smith LLC Hospital,Government,Moyermouth,Maine,India,265,3.9,8917730512,2025-01-17,2026-03-24
+802,"Watkins, Garcia and Stewart Hospital",Government,Leeborough,Minnesota,India,52,2.8,4553621568,2025-09-29,2025-10-16
+803,"Guzman, Mills and George Hospital",Government,Fieldsmouth,Texas,India,209,4.7,5621519780,2023-10-28,2025-12-20
+804,Barton LLC Hospital,Government,Jeffreyborough,Wyoming,India,788,3.5,9053677602,2025-09-14,2026-02-12
+805,Simpson PLC Hospital,Government,Andersonhaven,Utah,India,830,4.6,1683113598,2024-09-11,2025-10-10
+806,"Sullivan, Jackson and Smith Hospital",Multi-Specialty,South Thomas,South Dakota,India,169,4.5,5023153156,2025-09-14,2026-01-20
+807,Francis Ltd Hospital,Multi-Specialty,North Jasonborough,Minnesota,India,942,4.1,6061890099,2024-08-02,2026-05-03
+808,Rogers PLC Hospital,Government,Haynesmouth,Mississippi,India,138,3.7,5198009940,2024-11-11,2026-03-18
+809,"Walker, Haynes and Snyder Hospital",Private,Douglaschester,Florida,India,378,4.9,9748840739,2024-10-12,2026-01-23
+810,Smith Group Hospital,Government,Port Amyton,Wisconsin,India,629,2.9,8948148742,2025-01-11,2026-09-02
+811,Bird-Carter Hospital,Private,Jennystad,South Carolina,India,959,4.3,8828433878,2023-10-26,2025-10-25
+812,"Sullivan, Berger and Austin Hospital",Government,Branditon,West Virginia,India,406,3.0,9847341124,2023-11-04,2025-12-13
+813,"Mason, Wilkinson and Rhodes Hospital",Government,Lindatown,California,India,659,3.3,4489964208,2024-03-03,2026-01-05
+814,"Dunn, Aguilar and Kaufman Hospital",Multi-Specialty,East James,New Mexico,India,316,3.3,5609959446,2024-08-26,2025-10-15
+815,Blake Inc Hospital,Private,Edwardside,North Dakota,India,666,4.9,4313118207,2024-09-12,2026-02-10
+816,"Kim, Campbell and Villegas Hospital",Private,Sanchezport,Michigan,India,372,4.9,4782061606,2024-12-29,2026-04-29
+817,"Dudley, Walters and Porter Hospital",Multi-Specialty,Douglasstad,Massachusetts,India,684,3.0,8537208919,2024-01-20,2026-09-29
+818,Galvan-Rios Hospital,Multi-Specialty,Port Kimberly,North Carolina,India,590,2.6,7071509542,2024-11-14,2025-10-01
+819,"Powers, Miller and Campos Hospital",Multi-Specialty,Allenchester,South Dakota,India,698,4.3,2350933653,2024-08-13,2025-10-04
+820,"Bryant, Hoffman and Carpenter Hospital",Multi-Specialty,Lake Jonathanville,Oklahoma,India,244,3.5,9320769042,2025-08-16,2026-04-03
+821,Jackson LLC Hospital,Private,Freemanborough,Missouri,India,970,2.7,4339973222,2024-03-25,2026-09-12
+822,"Horton, Peck and Thomas Hospital",Private,South Jessicastad,Rhode Island,India,787,4.2,8939251166,2024-05-24,2025-10-23
+823,Vargas-Holder Hospital,Government,North Desiree,Idaho,India,381,3.9,7205954021,2024-09-03,2025-12-27
+824,Hunt-Anderson Hospital,Government,Robertstad,New York,India,219,5.0,7298813102,2023-12-02,2026-02-17
+825,Vargas LLC Hospital,Multi-Specialty,Tammyhaven,South Dakota,India,570,3.1,0287235004,2025-05-11,2026-06-20
+826,Lopez PLC Hospital,Multi-Specialty,Newmanport,Colorado,India,512,3.5,1206189199,2024-06-28,2026-07-24
+827,"Williams, Martinez and Cortez Hospital",Multi-Specialty,East Samanthaville,Kentucky,India,89,3.9,2441959971,2024-09-14,2025-12-01
+828,Paul-Jones Hospital,Government,Jasonmouth,Missouri,India,586,4.5,7751962925,2024-05-02,2026-02-13
+829,"Knapp, Ross and Underwood Hospital",Government,Christinaburgh,Arizona,India,310,3.9,1410877431,2024-01-24,2026-07-21
+830,Hill-Smith Hospital,Government,West Maryfurt,Delaware,India,444,4.0,5285537112,2023-11-13,2026-03-26
+831,"Davis, Colon and Parker Hospital",Government,Pooleville,West Virginia,India,275,3.1,5910292996,2024-05-16,2026-02-02
+832,"Fox, Ponce and Castaneda Hospital",Government,Toddstad,Maryland,India,173,4.6,0994120402,2025-01-01,2025-11-16
+833,Burke PLC Hospital,Government,Andersonside,Delaware,India,87,3.6,6729071407,2025-08-19,2026-09-06
+834,Chaney-Medina Hospital,Government,Port Connor,Kansas,India,377,2.9,2863492811,2024-02-25,2026-01-01
+835,Romero-Lee Hospital,Multi-Specialty,Moodyland,Louisiana,India,300,4.2,0466519124,2025-08-01,2026-09-05
+836,"Summers, Skinner and Morris Hospital",Multi-Specialty,North Christopher,Missouri,India,950,3.0,0464153000,2025-01-24,2025-12-13
+837,"Morris, Newman and Jackson Hospital",Multi-Specialty,North Mariaberg,Indiana,India,225,2.7,1806111147,2024-01-16,2026-08-02
+838,Reynolds Group Hospital,Multi-Specialty,West Peterfort,Texas,India,651,4.7,9839414090,2024-06-14,2026-01-29
+839,Coleman-Williams Hospital,Government,New Pamelafort,Missouri,India,963,3.7,8839248742,2024-06-30,2026-02-10
+840,Briggs and Sons Hospital,Private,Robinside,Iowa,India,503,4.4,4473089032,2024-01-18,2026-04-14
+841,Adkins PLC Hospital,Government,South Wayne,Alabama,India,86,3.2,6439217981,2025-01-03,2026-09-28
+842,Rodriguez PLC Hospital,Private,Scottstad,Oregon,India,365,4.5,1034052672,2024-06-29,2026-08-05
+843,Johnson-Martinez Hospital,Multi-Specialty,Port Patrick,Mississippi,India,737,2.8,8702919161,2024-04-20,2026-08-11
+844,Lopez and Sons Hospital,Government,New Christopherton,Louisiana,India,845,3.4,5541304082,2024-10-28,2025-11-10
+845,Fowler-Johnson Hospital,Multi-Specialty,North Andrew,Maryland,India,642,4.9,4448168450,2024-05-20,2026-02-07
+846,"Saunders, Taylor and Smith Hospital",Government,Swansonfort,Pennsylvania,India,163,4.5,4007770280,2025-05-03,2026-07-22
+847,Wells LLC Hospital,Multi-Specialty,West Erica,Wyoming,India,89,3.7,0365599693,2024-04-22,2025-11-27
+848,Daniel-Mueller Hospital,Private,South Daniel,Mississippi,India,350,3.3,1894265813,2024-01-11,2026-03-06
+849,Pierce-Johnson Hospital,Private,North James,Arizona,India,273,4.7,3978205587,2024-08-27,2026-08-06
+850,Rose-Burton Hospital,Private,Anthonymouth,Tennessee,India,367,3.9,2411809973,2024-05-29,2026-08-16
+851,Walters-Bennett Hospital,Government,Laurenmouth,Rhode Island,India,398,4.4,7163044622,2025-01-04,2026-04-26
+852,Dean Group Hospital,Private,Edwardland,Alaska,India,164,4.4,0817656798,2024-06-06,2026-04-07
+853,Mata-Ramos Hospital,Government,New Jacob,Idaho,India,747,2.5,4342342392,2024-08-06,2026-04-22
+854,"Smith, Fleming and Cruz Hospital",Private,Emilytown,Virginia,India,372,2.8,3970481903,2025-09-26,2026-05-31
+855,Coleman Group Hospital,Private,East Geoffrey,Rhode Island,India,617,4.1,3184443373,2024-04-21,2026-06-02
+856,Diaz Group Hospital,Government,Johnsonmouth,New York,India,89,2.9,2825424499,2024-01-17,2025-12-31
+857,"Jackson, Franco and Potts Hospital",Government,Crystalburgh,Louisiana,India,915,3.1,3650286002,2025-03-18,2026-06-28
+858,Spencer-Vargas Hospital,Private,Romerochester,Oklahoma,India,89,4.9,7518883543,2024-01-25,2026-08-13
+859,Peters-Little Hospital,Government,East Lindsayport,Alaska,India,908,3.9,7678184696,2024-05-25,2025-10-21
+860,Smith PLC Hospital,Private,Port Jenniferville,Alabama,India,798,4.4,0880792587,2025-02-04,2026-01-27
+861,"Adams, Gallegos and Humphrey Hospital",Government,Amyside,Nebraska,India,338,3.9,0951435250,2024-03-26,2026-06-06
+862,Lopez-Lopez Hospital,Multi-Specialty,Patriciabury,Iowa,India,311,3.9,2050916221,2024-03-04,2026-01-25
+863,Martinez-Gilbert Hospital,Multi-Specialty,Garciamouth,Ohio,India,265,2.7,5266228262,2025-06-15,2026-03-24
+864,Rodriguez PLC Hospital,Multi-Specialty,South Stephenside,Missouri,India,196,3.4,0039604288,2024-01-15,2026-05-04
+865,"Williams, Johnson and Flores Hospital",Multi-Specialty,Briggsshire,Alaska,India,385,3.2,8563854240,2023-10-27,2026-03-01
+866,"Crane, Singh and Smith Hospital",Multi-Specialty,West Lisa,Montana,India,217,3.5,6355413323,2025-03-18,2025-12-07
+867,Ramirez and Sons Hospital,Private,New Jillshire,Wisconsin,India,141,4.5,9823688494,2025-01-15,2026-03-08
+868,Watson-Harrison Hospital,Multi-Specialty,Richardfort,New Jersey,India,402,3.4,8581490002,2025-03-07,2026-08-12
+869,Garcia and Sons Hospital,Multi-Specialty,Jeremyport,Pennsylvania,India,620,3.6,3546559741,2024-09-10,2026-07-15
+870,"Carter, Johnson and Lee Hospital",Multi-Specialty,Baileystad,New Jersey,India,620,3.5,9366911272,2025-04-20,2025-12-21
+871,"Hill, Jenkins and Blackburn Hospital",Multi-Specialty,Georgeport,Michigan,India,865,2.7,4327946854,2024-08-24,2026-06-28
+872,"Ramos, Mack and Boyer Hospital",Government,Lake Lori,New Jersey,India,730,3.6,6692821518,2024-11-02,2026-09-24
+873,Stewart Inc Hospital,Private,Joshuafurt,Iowa,India,830,3.0,5638548779,2025-07-12,2026-06-30
+874,Armstrong-Ortega Hospital,Multi-Specialty,Lake Dakota,Mississippi,India,412,3.0,3071307519,2025-01-11,2026-07-10
+875,"Delacruz, Mullins and Schaefer Hospital",Multi-Specialty,Brittanymouth,Florida,India,606,2.7,8156877207,2025-08-27,2026-06-18
+876,Lester-Simpson Hospital,Multi-Specialty,South Haley,Minnesota,India,394,3.4,4847692574,2025-04-14,2026-03-15
+877,"Collier, Pearson and Green Hospital",Private,Port Michael,Indiana,India,742,4.4,5803626457,2025-09-28,2025-12-09
+878,Perez-Stanley Hospital,Government,Harrisville,Tennessee,India,219,3.2,5588458073,2024-05-29,2026-09-08
+879,Villarreal Ltd Hospital,Private,New Johnstad,Alabama,India,405,3.3,6601809508,2025-06-18,2026-01-17
+880,Torres LLC Hospital,Government,Lake Stacy,Wyoming,India,240,4.1,2867817981,2024-12-09,2026-06-18
+881,Howard LLC Hospital,Multi-Specialty,Wadeberg,Colorado,India,716,3.0,2858319554,2024-04-30,2026-04-10
+882,Waters-Gaines Hospital,Multi-Specialty,South Blake,Illinois,India,471,4.7,7581121017,2024-11-13,2026-01-09
+883,Mcfarland-Lee Hospital,Private,Watkinsfurt,New Jersey,India,749,3.8,1651878576,2024-01-16,2026-07-18
+884,"Glass, Foster and Rhodes Hospital",Private,Brockfurt,Utah,India,56,3.6,6192910673,2025-07-29,2026-09-16
+885,Wallace-Clark Hospital,Government,Mosschester,New Hampshire,India,182,3.9,0681100894,2023-10-20,2025-10-15
+886,Williams-Stewart Hospital,Government,Port Mikaylamouth,Michigan,India,796,2.9,2980493311,2024-05-14,2026-01-14
+887,"Garrison, Norris and Brown Hospital",Private,West Jefferyborough,South Dakota,India,606,4.0,0166109808,2023-10-15,2026-08-28
+888,"Martinez, Collins and Roberson Hospital",Government,New Michael,Georgia,India,875,3.4,5079287062,2025-04-24,2026-07-29
+889,Anderson-Beard Hospital,Private,Lake David,Michigan,India,810,4.7,5984636241,2025-04-08,2026-06-10
+890,Perry LLC Hospital,Government,East Cheyenneville,Illinois,India,80,2.9,5876180943,2025-09-06,2025-10-15
+891,Tucker LLC Hospital,Private,Thomastown,Alaska,India,584,3.8,6768896531,2024-07-18,2026-04-04
+892,"Stanley, Burns and Carpenter Hospital",Private,Reeseport,Montana,India,475,4.0,2775432029,2024-07-28,2026-01-22
+893,"Wells, Taylor and Morrison Hospital",Private,Lindseybury,Virginia,India,443,2.6,9601691500,2025-07-20,2026-04-16
+894,"Diaz, Casey and Lester Hospital",Government,Kyleberg,Texas,India,721,3.4,8050560953,2023-12-30,2026-03-07
+895,"Nelson, Hunter and Cummings Hospital",Government,Farmerton,Alaska,India,412,4.3,0775442161,2025-04-04,2026-08-24
+896,Reed-Kim Hospital,Government,Douglasmouth,Oregon,India,486,4.6,9640513616,2024-10-21,2026-02-22
+897,Shelton-Douglas Hospital,Private,Smithchester,Illinois,India,719,3.3,2298607312,2024-03-29,2026-07-18
+898,Anderson Inc Hospital,Government,West Chelsea,Georgia,India,600,4.5,4565313448,2025-09-18,2026-07-02
+899,Russo-Brown Hospital,Government,Hannahberg,Montana,India,976,4.9,6139653343,2025-03-17,2026-09-14
+900,Williams and Sons Hospital,Private,Kristimouth,Montana,India,131,4.6,9867481931,2023-12-22,2026-09-24
+901,Fisher-Mora Hospital,Multi-Specialty,Kimberlychester,Nevada,India,405,2.8,0910725590,2024-10-12,2025-12-10
+902,"Cruz, Bailey and Hughes Hospital",Private,Alecton,New Jersey,India,307,4.3,5258545019,2024-07-21,2025-11-07
+903,Washington Ltd Hospital,Government,Lake Summerfort,New Jersey,India,767,3.3,3722662329,2025-05-09,2026-03-28
+904,"Wright, Dyer and Bishop Hospital",Private,East Jessica,California,India,638,5.0,7804033356,2025-08-05,2026-06-01
+905,Martinez PLC Hospital,Multi-Specialty,Lisabury,Ohio,India,573,3.7,5874527470,2023-12-15,2026-04-07
+906,Goodman Inc Hospital,Private,South Samanthamouth,Illinois,India,344,2.8,7780606906,2025-02-01,2026-06-05
+907,Gill and Sons Hospital,Government,Petersfort,South Carolina,India,273,4.3,4343490584,2025-01-25,2026-01-25
+908,Cohen-Mclean Hospital,Multi-Specialty,West Kaylahaven,West Virginia,India,574,3.3,0793776736,2025-03-22,2026-02-17
+909,Gonzales and Sons Hospital,Government,Sanchezton,Idaho,India,95,5.0,8635486838,2024-03-19,2026-08-31
+910,White-Wolf Hospital,Multi-Specialty,North Theresa,Missouri,India,716,4.9,0238322212,2024-11-23,2025-12-25
+911,Jimenez-Carpenter Hospital,Multi-Specialty,New Alicia,Colorado,India,162,4.1,7301247647,2025-02-04,2026-03-18
+912,Dominguez-Curry Hospital,Private,Jonathanberg,Delaware,India,282,2.8,6585460266,2025-09-16,2026-03-01
+913,Hopkins-Moore Hospital,Private,Heatherborough,Virginia,India,66,4.2,1210285387,2025-08-07,2026-06-16
+914,Taylor PLC Hospital,Government,Lake William,New Hampshire,India,409,2.7,2712296030,2025-05-11,2026-03-20
+915,"Johnson, Schmidt and Johnson Hospital",Private,North Tonyaton,Maryland,India,272,2.6,0201601806,2024-04-08,2026-08-14
+916,Meza Group Hospital,Private,South Frank,Hawaii,India,915,4.6,9801714356,2024-09-24,2026-01-16
+917,Owens and Sons Hospital,Multi-Specialty,Ryanshire,Wyoming,India,749,3.0,1776031773,2025-01-02,2026-08-23
+918,Wilkinson Group Hospital,Private,Perezfurt,Indiana,India,497,3.4,2887236345,2024-10-13,2026-07-16
+919,Meyer Inc Hospital,Multi-Specialty,North Steven,Massachusetts,India,905,4.9,3409256818,2024-10-07,2026-01-07
+920,"Ortega, Davis and Liu Hospital",Multi-Specialty,Martinchester,Iowa,India,414,3.3,2691522042,2024-05-07,2026-06-09
+921,May Inc Hospital,Multi-Specialty,West Lauraborough,Maryland,India,724,3.2,3312513713,2024-11-27,2026-03-09
+922,Hernandez and Sons Hospital,Government,Farmerchester,Iowa,India,375,4.8,9153345882,2024-09-07,2025-11-18
+923,Singleton Inc Hospital,Government,Smithstad,Arkansas,India,516,2.8,3225396015,2024-09-02,2026-07-11
+924,Martin LLC Hospital,Government,West Sharonton,Oregon,India,463,4.4,7968178909,2024-12-19,2026-08-09
+925,Anderson-Ramirez Hospital,Multi-Specialty,Guerramouth,Illinois,India,504,5.0,7616673446,2024-12-31,2026-01-23
+926,Miller-Gibson Hospital,Government,West Shawnview,Hawaii,India,635,4.8,4597254854,2024-08-03,2025-11-19
+927,Wolf-Robinson Hospital,Government,Port Christophermouth,Minnesota,India,282,4.1,3808781408,2023-10-08,2026-09-28
+928,Hester Group Hospital,Private,West Tara,Arkansas,India,273,3.3,0885965149,2024-08-22,2026-09-22
+929,"Bernard, Cruz and Greene Hospital",Government,Clarkbury,Delaware,India,880,3.1,5459962331,2024-12-17,2026-01-09
+930,"Murphy, Dalton and Castro Hospital",Government,South Daniel,Florida,India,461,4.5,4297914121,2023-10-08,2026-09-21
+931,"Ramirez, Williams and Kelly Hospital",Multi-Specialty,Port Deniseburgh,Utah,India,621,4.7,2681243035,2023-11-04,2025-11-13
+932,"Davis, Koch and Scott Hospital",Multi-Specialty,Lake Davidfurt,Alaska,India,384,3.8,7212896590,2024-02-17,2026-08-24
+933,Roberts-Prince Hospital,Multi-Specialty,East Ellenshire,Maryland,India,271,3.1,9607035049,2025-02-12,2026-07-25
+934,"Mullins, Diaz and Decker Hospital",Multi-Specialty,New Ethanland,North Dakota,India,86,2.8,6665301265,2024-12-20,2025-10-23
+935,Lester-Reilly Hospital,Multi-Specialty,Walshfurt,Wyoming,India,327,2.7,4891109549,2024-09-08,2026-09-30
+936,Decker Ltd Hospital,Multi-Specialty,Millerburgh,Colorado,India,245,4.3,6121585974,2024-01-18,2026-03-25
+937,"Miller, Wright and Fisher Hospital",Government,Alvaradostad,Hawaii,India,965,3.6,3769556986,2024-08-28,2026-07-26
+938,"Miller, Shea and Scott Hospital",Multi-Specialty,Spencerfurt,Mississippi,India,913,4.8,4381147420,2025-07-27,2026-02-03
+939,"Ward, Cuevas and Crane Hospital",Multi-Specialty,Jessicashire,Utah,India,533,4.3,0839791858,2025-09-18,2026-09-09
+940,Myers Group Hospital,Private,Conniehaven,Texas,India,291,3.0,8737325624,2024-01-11,2025-11-15
+941,"Pope, Wallace and Scott Hospital",Government,Levyborough,West Virginia,India,373,4.0,1165660839,2025-06-13,2026-02-16
+942,Garcia Ltd Hospital,Government,West Alejandro,West Virginia,India,780,3.6,3163009136,2025-06-13,2026-05-21
+943,Payne-Frey Hospital,Government,South Brianfort,Nebraska,India,241,3.9,1706547915,2023-11-29,2026-06-18
+944,Gonzalez-Moore Hospital,Multi-Specialty,Lake Elizabethside,Maryland,India,66,4.3,4906335184,2025-07-02,2026-05-05
+945,Young Ltd Hospital,Multi-Specialty,South Kimberlyport,Florida,India,573,4.5,1019064159,2024-10-07,2026-05-12
+946,Alvarez-Moyer Hospital,Multi-Specialty,Stephensfort,Mississippi,India,967,4.6,0557061050,2023-10-25,2026-05-10
+947,Soto Inc Hospital,Private,Sonyaburgh,Texas,India,450,3.1,3911255278,2024-03-19,2025-12-02
+948,"Cameron, Jones and Kane Hospital",Multi-Specialty,Matthewberg,Connecticut,India,955,2.6,3418700448,2025-04-18,2026-07-20
+949,"Diaz, Duncan and Mcguire Hospital",Private,North Tammyview,Indiana,India,935,4.3,9300360237,2025-07-27,2026-01-17
+950,"Harris, Roberts and Richardson Hospital",Government,Andradeberg,South Dakota,India,754,2.8,9760979270,2025-04-29,2026-01-14
+951,"Petersen, Phillips and Bush Hospital",Multi-Specialty,New Jeffreyville,North Carolina,India,71,3.3,4825644369,2025-03-21,2026-06-30
+952,Jackson-Sellers Hospital,Private,Danielberg,Rhode Island,India,523,2.5,3317868595,2024-09-13,2026-02-16
+953,"Mills, Gibson and Smith Hospital",Private,West Janet,Idaho,India,169,4.2,0095028298,2025-04-07,2026-02-01
+954,Garrison-Osborne Hospital,Multi-Specialty,East Courtney,Virginia,India,259,2.9,1859178429,2024-07-30,2026-09-28
+955,Meyers and Sons Hospital,Government,East Robert,Utah,India,355,4.1,2026853066,2023-11-01,2026-07-30
+956,Spence Inc Hospital,Government,Jonesbury,Oklahoma,India,319,5.0,4236946290,2025-06-06,2026-04-01
+957,Strickland Inc Hospital,Government,North Jenniferhaven,Louisiana,India,753,2.7,9441754510,2025-07-18,2025-11-11
+958,Boyd-Vasquez Hospital,Private,New Andrewstad,Mississippi,India,736,2.7,2566576246,2024-10-15,2026-08-09
+959,Thomas-Miller Hospital,Private,Valdezmouth,West Virginia,India,334,3.4,7732635919,2025-03-25,2025-11-18
+960,Rodriguez LLC Hospital,Private,Jaredchester,Arizona,India,765,4.7,5824215016,2025-05-04,2026-06-19
+961,"Yates, Coleman and Hale Hospital",Private,South Laurenstad,Indiana,India,725,3.0,4945244038,2024-09-18,2026-01-11
+962,Cummings-Wells Hospital,Government,Lake Debraborough,Mississippi,India,812,3.4,0656484761,2024-03-07,2026-02-11
+963,Brown-Estrada Hospital,Multi-Specialty,Bethanymouth,Oregon,India,276,2.7,7906702278,2025-08-11,2025-10-28
+964,Martinez-Jones Hospital,Private,Brittanyberg,Delaware,India,997,4.4,0189241266,2023-12-25,2026-07-12
+965,Colon-Salazar Hospital,Private,Isaiahberg,Texas,India,430,3.5,4887409099,2024-03-12,2026-05-01
+966,Williams-Logan Hospital,Government,Andrewsview,New Hampshire,India,509,4.4,5428317383,2024-11-02,2026-02-13
+967,"Taylor, Rollins and Bishop Hospital",Multi-Specialty,North Vicki,Connecticut,India,56,4.8,8398518039,2025-09-12,2026-02-14
+968,Huang-Phillips Hospital,Multi-Specialty,South Katiefurt,Delaware,India,78,3.1,8855274687,2024-03-02,2026-01-07
+969,Acosta and Sons Hospital,Government,Port Ryan,Kansas,India,956,4.5,2964471351,2025-06-14,2025-12-18
+970,Carter-King Hospital,Government,West Elizabethberg,Wisconsin,India,82,2.6,5346567261,2025-08-14,2026-08-19
+971,Reeves-Houston Hospital,Multi-Specialty,Pamelafurt,South Carolina,India,695,4.7,5997562327,2025-04-21,2025-12-31
+972,Edwards Inc Hospital,Private,East Mathew,Florida,India,928,4.1,6066614861,2024-06-14,2026-09-20
+973,Miller-Brennan Hospital,Multi-Specialty,Vanessaport,Rhode Island,India,128,4.7,7596904839,2025-06-13,2026-04-07
+974,Evans-York Hospital,Government,Castillohaven,Kansas,India,977,2.5,6757046633,2025-01-26,2026-07-01
+975,Holmes-Rodgers Hospital,Private,Lawsonton,South Carolina,India,996,2.9,5604991379,2025-06-23,2026-01-19
+976,Garcia Group Hospital,Private,Margarettown,Texas,India,508,3.5,1424379103,2023-12-09,2026-02-20
+977,Vargas LLC Hospital,Government,South Shawnton,Connecticut,India,619,3.4,1299162880,2025-08-29,2026-03-10
+978,Hubbard LLC Hospital,Government,Stacieton,Michigan,India,587,3.1,6661369181,2024-10-28,2026-08-03
+979,Wilson-Short Hospital,Government,Jamieview,Michigan,India,531,3.5,9921514369,2024-06-22,2026-04-08
+980,Buchanan Group Hospital,Multi-Specialty,Toddview,Rhode Island,India,479,2.8,6543212794,2024-12-03,2025-12-24
+981,Brooks Inc Hospital,Multi-Specialty,Jamesland,Rhode Island,India,787,3.5,4646810121,2024-06-15,2025-10-16
+982,Patton PLC Hospital,Private,North Kyle,Iowa,India,334,4.5,1047642248,2024-02-24,2026-01-14
+983,"Thompson, Fischer and Smith Hospital",Government,South Christina,Kansas,India,565,3.7,1149209114,2025-09-04,2026-02-15
+984,"Clarke, Lee and Jones Hospital",Private,Colleenshire,Missouri,India,148,2.5,3271702476,2024-09-06,2026-08-09
+985,Miller-Lee Hospital,Private,New Cory,Montana,India,446,3.6,1445671361,2023-10-16,2026-09-28
+986,Cordova PLC Hospital,Private,East Mindyberg,North Dakota,India,538,2.6,7387709587,2023-11-07,2026-03-19
+987,"Sanders, Williams and Mitchell Hospital",Private,North Lonnieton,Minnesota,India,88,4.9,9769526232,2025-05-07,2025-12-09
+988,"Williamson, Mccann and Bradley Hospital",Government,East Ruthstad,Michigan,India,320,2.8,7333036779,2024-01-03,2025-10-14
+989,Powell LLC Hospital,Private,South Ashley,North Carolina,India,936,4.3,6361186272,2024-05-04,2026-07-31
+990,Smith and Sons Hospital,Government,Lake Tyler,Wyoming,India,846,4.9,9463354342,2024-12-13,2026-06-03
+991,Rodriguez Group Hospital,Government,Marieshire,Kansas,India,206,4.6,8935730045,2025-02-17,2026-09-05
+992,Patel-Jimenez Hospital,Multi-Specialty,Ryanchester,Idaho,India,124,4.2,1072554521,2023-11-03,2025-12-29
+993,Lewis Inc Hospital,Government,West Dianemouth,Kansas,India,933,4.6,2815186105,2024-12-31,2026-04-12
+994,Cooper Ltd Hospital,Multi-Specialty,Klinemouth,Virginia,India,849,5.0,3590105371,2025-06-29,2026-09-04
+995,"Trujillo, Mack and Mata Hospital",Government,North Seanbury,Pennsylvania,India,179,4.1,1998178914,2024-07-10,2025-11-13
+996,"Stewart, Martinez and Schmitt Hospital",Government,Thomasport,Colorado,India,736,3.9,1861878045,2025-05-27,2025-10-24
+997,Webster-Mcdowell Hospital,Government,Martinstad,Ohio,India,133,4.1,4928062699,2024-02-04,2026-04-18
+998,"Stewart, Cortez and Arias Hospital",Multi-Specialty,Kevinville,Hawaii,India,71,3.8,5173152173,2025-05-29,2026-01-03
+999,Morrow-Savage Hospital,Multi-Specialty,Port Emily,Kentucky,India,508,4.1,8570776093,2024-06-07,2025-11-08
+1000,"Lewis, Martinez and Wilson Hospital",Private,East Rachel,Tennessee,India,588,3.6,0140804201,2024-11-05,2026-05-03
