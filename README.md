@@ -419,7 +419,467 @@ healthcare-files/
 7. **Build the semantic model** on the Gold tables and connect Power BI.
 
 ---
+## codes:
+### bronze:
+```
+# =====================================================================
+# NB_Bronze_Load  |  Layer: BRONZE (raw ingestion)
+# Paste each "CELL" block into its own Fabric notebook cell.
+# =====================================================================
 
+# ---------------------------------------------------------------------
+# CELL 1: Imports
+# ---------------------------------------------------------------------
+from pyspark.sql.functions import col, to_timestamp, lit
+from notebookutils import mssparkutils
+
+
+# ---------------------------------------------------------------------
+# CELL 2: PARAMETERS
+# In Fabric: click "..." on this cell -> "Toggle parameter cell".
+# The pipeline's Notebook activity overrides these defaults.
+# Without this cell (or the toggle) you get: NameError: LoadType is not defined
+# ---------------------------------------------------------------------
+SourceName        = "Patients"
+FileName          = "Patients.csv"
+FileFormat        = "DelimitedText"      # DelimitedText / JSON / Parquet
+LoadType          = "Full"               # Full / Incremental
+IncrementalColumn = "ModifiedDate"
+WatermarkDate     = "1900-01-01"
+
+
+# ---------------------------------------------------------------------
+# CELL 3: Print parameters
+# ---------------------------------------------------------------------
+print("SourceName        =", SourceName)
+print("FileName          =", FileName)
+print("FileFormat        =", FileFormat)
+print("LoadType          =", LoadType)
+print("IncrementalColumn =", IncrementalColumn)
+print("WatermarkDate     =", WatermarkDate)
+
+landing_path = f"Files/Landing/{SourceName}/{FileName}"
+bronze_table = f"Bronze_{SourceName}"
+print("Landing Path =", landing_path)
+print("Bronze Table =", bronze_table)
+
+
+# ---------------------------------------------------------------------
+# CELL 4: Read landing file based on FileFormat
+# ---------------------------------------------------------------------
+if FileFormat == "DelimitedText":
+    df = spark.read.option("header", "true").csv(landing_path)
+elif FileFormat == "JSON":
+    df = spark.read.json(landing_path)
+elif FileFormat == "Parquet":
+    df = spark.read.parquet(landing_path)
+else:
+    raise Exception(f"Unsupported FileFormat: {FileFormat}")
+
+df.show(5)
+print("Source Row Count =", df.count())
+
+
+# ---------------------------------------------------------------------
+# CELL 5: Helper - convert incremental column to a real timestamp
+# Handles epoch-millisecond numbers (Claims.json) and date/string columns.
+# Comparing a long column to a string watermark would silently match nothing.
+# ---------------------------------------------------------------------
+def to_ts(frame, c):
+    dtype = dict(frame.dtypes)[c]
+    if dtype in ("bigint", "long", "int"):
+        return (col(c) / 1000).cast("timestamp")     # epoch ms -> timestamp
+    return to_timestamp(col(c))
+
+
+# ---------------------------------------------------------------------
+# CELL 6: Load into Bronze (raw data kept as received)
+# ---------------------------------------------------------------------
+if LoadType == "Full":
+
+    record_count = df.count()
+
+    (df.write
+       .mode("overwrite")
+       .format("delta")
+       .option("overwriteSchema", "true")
+       .saveAsTable(bronze_table))
+
+    print("Full Load Completed")
+
+else:
+
+    if IncrementalColumn not in df.columns:
+        raise Exception(f"Incremental column {IncrementalColumn} not found in source")
+
+    filtered_df = df.filter(to_ts(df, IncrementalColumn) > lit(WatermarkDate).cast("timestamp"))
+    record_count = filtered_df.count()
+    print("Records to Process =", record_count)
+
+    if record_count > 0:
+        (filtered_df.write
+            .mode("append")
+            .format("delta")
+            .option("mergeSchema", "true")
+            .saveAsTable(bronze_table))
+        print("Incremental Load Completed")
+    else:
+        print("No New Records Found")
+
+print("Records Processed =", record_count)
+
+
+# ---------------------------------------------------------------------
+# CELL 7: Return record count to the pipeline
+# ---------------------------------------------------------------------
+mssparkutils.notebook.exit(str(record_count))
+```
+### silver:
+```
+# =====================================================================
+# NB_Silver_Load  |  Layer: SILVER (cleansed, deduplicated, upserted)
+# Paste each "CELL" block into its own Fabric notebook cell.
+# =====================================================================
+
+# ---------------------------------------------------------------------
+# CELL 1: Imports
+# ---------------------------------------------------------------------
+from pyspark.sql.functions import col, to_timestamp, lit, trim, row_number
+from pyspark.sql.window import Window
+from delta.tables import DeltaTable
+from notebookutils import mssparkutils
+
+
+# ---------------------------------------------------------------------
+# CELL 2: PARAMETERS  (toggle this cell as "parameter cell")
+# ---------------------------------------------------------------------
+SourceName        = "Patients"
+LoadType          = "Full"               # Full / Incremental
+IncrementalColumn = "ModifiedDate"
+WatermarkDate     = "1900-01-01"
+BusinessKey       = "PatientID"
+
+
+# ---------------------------------------------------------------------
+# CELL 3: Table names + print parameters
+# ---------------------------------------------------------------------
+bronze_table = f"Bronze_{SourceName}"
+silver_table = f"Silver_{SourceName}"
+
+print("SourceName        =", SourceName)
+print("LoadType          =", LoadType)
+print("IncrementalColumn =", IncrementalColumn)
+print("WatermarkDate     =", WatermarkDate)
+print("BusinessKey       =", BusinessKey)
+print("Bronze Table      =", bronze_table)
+print("Silver Table      =", silver_table)
+
+
+# ---------------------------------------------------------------------
+# CELL 4: Read Bronze
+# ---------------------------------------------------------------------
+bronze_df = spark.table(bronze_table)
+print("Bronze Count =", bronze_df.count())
+
+
+# ---------------------------------------------------------------------
+# CELL 5: Schema validation
+# ---------------------------------------------------------------------
+if BusinessKey not in bronze_df.columns:
+    raise Exception(f"Business key {BusinessKey} not found in {bronze_table}")
+
+if IncrementalColumn not in bronze_df.columns:
+    raise Exception(f"Incremental column {IncrementalColumn} not found in {bronze_table}")
+
+print("Schema Validation Passed")
+
+
+# ---------------------------------------------------------------------
+# CELL 6: Schema evolution
+# ---------------------------------------------------------------------
+spark.conf.set("spark.databricks.delta.schema.autoMerge.enabled", "true")
+
+
+# ---------------------------------------------------------------------
+# CELL 7: Helper - convert incremental column to a real timestamp
+# ---------------------------------------------------------------------
+def to_ts(frame, c):
+    dtype = dict(frame.dtypes)[c]
+    if dtype in ("bigint", "long", "int"):
+        return (col(c) / 1000).cast("timestamp")     # epoch ms -> timestamp
+    return to_timestamp(col(c))
+
+
+# ---------------------------------------------------------------------
+# CELL 8: Full / Incremental filter
+# ---------------------------------------------------------------------
+if LoadType == "Full":
+    process_df = bronze_df
+else:
+    process_df = bronze_df.filter(
+        to_ts(bronze_df, IncrementalColumn) > lit(WatermarkDate).cast("timestamp")
+    )
+
+
+# ---------------------------------------------------------------------
+# CELL 9: No-data check
+# ---------------------------------------------------------------------
+record_count = process_df.count()
+print("Records To Process =", record_count)
+
+if record_count == 0:
+    print("No New Records Found")
+    mssparkutils.notebook.exit("NO_DATA")
+
+
+# ---------------------------------------------------------------------
+# CELL 10: Silver transformations
+#  1. trim text columns
+#  2. drop rows with a null business key (NOT rows with any null column)
+#  3. drop exact duplicate rows
+#  4. keep only the LATEST row per business key
+#     (incremental Bronze appends, so a modified record can appear twice,
+#      and MERGE fails if two source rows match one target row)
+# ---------------------------------------------------------------------
+silver_df = process_df
+
+for c, t in silver_df.dtypes:
+    if t == "string":
+        silver_df = silver_df.withColumn(c, trim(col(c)))
+
+silver_df = silver_df.filter(col(BusinessKey).isNotNull()).dropDuplicates()
+
+latest = Window.partitionBy(BusinessKey).orderBy(to_ts(silver_df, IncrementalColumn).desc())
+
+silver_df = (
+    silver_df
+    .withColumn("_rn", row_number().over(latest))
+    .filter(col("_rn") == 1)
+    .drop("_rn")
+)
+
+silver_count = silver_df.count()
+print("Silver Records After Cleaning =", silver_count)
+
+
+# ---------------------------------------------------------------------
+# CELL 11: First load - create Silver table
+# ---------------------------------------------------------------------
+if not spark.catalog.tableExists(silver_table):
+
+    (silver_df.write
+        .format("delta")
+        .mode("overwrite")
+        .option("mergeSchema", "true")
+        .saveAsTable(silver_table))
+
+    print("Silver Table Created")
+    mssparkutils.notebook.exit(str(silver_count))
+
+
+# ---------------------------------------------------------------------
+# CELL 12: Upsert (MERGE) into Silver, then return the count
+# ---------------------------------------------------------------------
+delta_table = DeltaTable.forName(spark, silver_table)
+
+(
+    delta_table.alias("t")
+    .merge(silver_df.alias("s"), f"t.{BusinessKey} = s.{BusinessKey}")
+    .whenMatchedUpdateAll()
+    .whenNotMatchedInsertAll()
+    .execute()
+)
+
+print("Silver Merge Completed")
+mssparkutils.notebook.exit(str(silver_count))
+```
+### gold:
+```
+# =====================================================================
+# NB_Gold_Load  |  Layer: GOLD (business-ready dimensions and facts)
+# Paste each "CELL" block into its own Fabric notebook cell.
+# =====================================================================
+
+# ---------------------------------------------------------------------
+# CELL 1: Imports
+# ---------------------------------------------------------------------
+from pyspark.sql.functions import col, to_timestamp, lit
+from pyspark.sql.window import Window
+from pyspark.sql.functions import row_number
+from delta.tables import DeltaTable
+from notebookutils import mssparkutils
+
+
+# ---------------------------------------------------------------------
+# CELL 2: PARAMETERS  (toggle this cell as "parameter cell")
+# ---------------------------------------------------------------------
+SourceName        = "Patients"
+LoadType          = "Full"               # Full / Incremental
+IncrementalColumn = "ModifiedDate"
+WatermarkDate     = "1900-01-01"
+BusinessKey       = "PatientID"
+
+print("SourceName        =", SourceName)
+print("LoadType          =", LoadType)
+print("IncrementalColumn =", IncrementalColumn)
+print("WatermarkDate     =", WatermarkDate)
+print("BusinessKey       =", BusinessKey)
+
+
+# ---------------------------------------------------------------------
+# CELL 3: Silver -> Gold table mapping
+# ---------------------------------------------------------------------
+GOLD_TABLES = {
+    "Patients":  "Gold_Dim_Patient",
+    "Doctors":   "Gold_Dim_Doctor",
+    "Hospitals": "Gold_Dim_Hospital",
+    "Claims":    "Gold_Fact_Claims",
+    "Pharmacy":  "Gold_Fact_Pharmacy",
+}
+
+# ID columns cast to string so joins work across all Gold tables
+ID_COLUMNS = {
+    "Patients":  ["PatientID"],
+    "Doctors":   ["DoctorID", "HospitalID"],
+    "Hospitals": ["HospitalID"],
+    "Claims":    ["ClaimID", "PatientID", "DoctorID", "HospitalID"],
+    "Pharmacy":  ["PatientID", "DoctorID"],
+}
+
+if SourceName not in GOLD_TABLES:
+    raise Exception(f"No Gold mapping defined for source: {SourceName}")
+
+silver_table = f"Silver_{SourceName}"
+gold_table   = GOLD_TABLES[SourceName]
+
+print("Silver Table =", silver_table)
+print("Gold Table   =", gold_table)
+
+
+# ---------------------------------------------------------------------
+# CELL 4: Read Silver + schema validation
+# ---------------------------------------------------------------------
+silver_df = spark.table(silver_table)
+print("Silver Count =", silver_df.count())
+
+if BusinessKey not in silver_df.columns:
+    raise Exception(f"{BusinessKey} not found in {silver_table}")
+
+if IncrementalColumn not in silver_df.columns:
+    raise Exception(f"{IncrementalColumn} not found in {silver_table}")
+
+print("Schema Validation Passed")
+
+
+# ---------------------------------------------------------------------
+# CELL 5: Schema evolution
+# ---------------------------------------------------------------------
+spark.conf.set("spark.databricks.delta.schema.autoMerge.enabled", "true")
+
+
+# ---------------------------------------------------------------------
+# CELL 6: Helper - convert incremental column to a real timestamp
+# ---------------------------------------------------------------------
+def to_ts(frame, c):
+    dtype = dict(frame.dtypes)[c]
+    if dtype in ("bigint", "long", "int"):
+        return (col(c) / 1000).cast("timestamp")     # epoch ms -> timestamp
+    return to_timestamp(col(c))
+
+
+# ---------------------------------------------------------------------
+# CELL 7: Full / Incremental filter + no-data check
+# ---------------------------------------------------------------------
+if LoadType == "Full":
+    process_df = silver_df
+else:
+    process_df = silver_df.filter(
+        to_ts(silver_df, IncrementalColumn) > lit(WatermarkDate).cast("timestamp")
+    )
+
+record_count = process_df.count()
+print("Records To Process =", record_count)
+
+if record_count == 0:
+    print("No New Records Found")
+    mssparkutils.notebook.exit("NO_DATA")
+
+
+# ---------------------------------------------------------------------
+# CELL 8: Clean keys - drop null keys, keep LATEST row per business key
+# ---------------------------------------------------------------------
+process_df = process_df.filter(col(BusinessKey).isNotNull())
+
+latest = Window.partitionBy(BusinessKey).orderBy(to_ts(process_df, IncrementalColumn).desc())
+
+process_df = (
+    process_df
+    .withColumn("_rn", row_number().over(latest))
+    .filter(col("_rn") == 1)
+    .drop("_rn")
+)
+
+
+# ---------------------------------------------------------------------
+# CELL 9: Standardize data types - IDs to string
+# ---------------------------------------------------------------------
+for c in ID_COLUMNS[SourceName]:
+    if c in process_df.columns:
+        process_df = process_df.withColumn(c, col(c).cast("string"))
+
+
+# ---------------------------------------------------------------------
+# CELL 10: Convert epoch-millisecond date columns to timestamps
+# ---------------------------------------------------------------------
+for c, t in process_df.dtypes:
+    if c.upper().endswith("DATE") and t in ("bigint", "long", "int"):
+        process_df = process_df.withColumn(c, (col(c) / 1000).cast("timestamp"))
+
+process_df.printSchema()
+gold_count = process_df.count()
+print("Gold Records To Load =", gold_count)
+
+
+# ---------------------------------------------------------------------
+# CELL 11: First load - create Gold table
+# ---------------------------------------------------------------------
+if not spark.catalog.tableExists(gold_table):
+
+    (process_df.write
+        .format("delta")
+        .mode("overwrite")
+        .option("mergeSchema", "true")
+        .saveAsTable(gold_table))
+
+    print("Initial Gold Table Created")
+    mssparkutils.notebook.exit(str(gold_count))
+
+
+# ---------------------------------------------------------------------
+# CELL 12: Upsert (MERGE) into Gold
+# ---------------------------------------------------------------------
+merge_condition = f"t.{BusinessKey} = s.{BusinessKey}"
+print("Merge Condition =", merge_condition)
+
+gold_delta = DeltaTable.forName(spark, gold_table)
+
+(
+    gold_delta.alias("t")
+    .merge(process_df.alias("s"), merge_condition)
+    .whenMatchedUpdateAll()
+    .whenNotMatchedInsertAll()
+    .execute()
+)
+
+print("Gold Merge Completed")
+spark.table(gold_table).printSchema()
+
+
+# ---------------------------------------------------------------------
+# CELL 13: Return record count to the pipeline
+# ---------------------------------------------------------------------
+mssparkutils.notebook.exit(str(gold_count))
+```
 ## 🎓 Key Learnings
 
 - Designing a **metadata-driven framework** that removes repetitive pipeline development.
