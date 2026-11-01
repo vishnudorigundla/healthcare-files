@@ -1,3 +1,3 @@
-# Stanford Healthcare Claims Analytics Platform.
+# Stanford Healthcare Claims Analytics Platform
 
 
