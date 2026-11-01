@@ -453,8 +453,8 @@ healthcare-files/
 
 ## 👤 Author
 
-**Your Name**
-📧 your.email@example.com
-🔗 [LinkedIn](https://linkedin.com/in/your-profile) | [GitHub](https://github.com/your-username)
+**Vishnu Dorigundla**
+📧 vishnudorigundla453@gmail.com
+🔗 [LinkedIn]([https://linkedin.com/in/your-profile](https://www.linkedin.com/in/vishnu-vardhan-reddy-dorigundla-353bb1255/)) | [GitHub](https://github.com/vishnudorigundla)
 
 ⭐ If you found this project useful, please star the repository!
